@@ -1,0 +1,499 @@
+﻿#nav #dh1 li:hover{
+		background-color: rgb(250,250,250);
+	}
+body{
+	margin:0;
+	padding:0;
+	background-color: rgb(250,232,200);
+}
+#zt{
+	background-color: rgb(250,232,200);
+}
+#ymdh{
+	width: 100%;
+	height: 120px;
+	background-image: linear-gradient(90deg,rgb(222,29,33),rgb(161,0,13));
+}
+#ms{
+	margin-left: 22%;
+	display: inline-block;
+}
+#ymss{
+	width: 23%;
+	height: 36px;
+	border-radius: 5px;
+	border:2px solid white;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#ymqq{
+	display: inline-block;
+}
+#ymqq li{
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+#ymqq a{
+	color: white;
+}
+#ymqq li:hover{
+	line-height: 30px;
+	height: 30px;
+	background-color:rgb(155,0,10);
+	border-radius: 5px;
+}
+#hjd{
+	width: 76px;
+	height: 33px;
+	position: relative;
+	left:-82px;
+	background-color: rgb(168,0,15);
+	border:none;
+	border-radius: 3px;
+	color: white;
+}
+#hjd:hover{
+	background-color: rgb(137,5,17);
+}
+#nav{
+	width:100%;
+	height: 80px;
+	background-color: rgb(255,255,255);
+	box-shadow: 2px 2px 4px #ddd;
+}
+#nav li{
+	display: inline-block;
+	margin-left: 50px;
+	line-height: 80px;
+}
+#nav a{
+	color: rgb(68,68,68);
+	font-size: 18px;
+	font-weight: bold;
+	font-family:"微软雅黑"; 
+}
+#nav a:hover{
+	text-decoration: none;
+}
+#dh1{
+	margin-left: 370px;
+}
+#dh1 #hg{
+	margin-top: -40px;
+	margin-left: -10px;
+}
+#cpdq,#cpdq1{
+	width: 990px;
+	height: 280px;
+	background-color: white;
+	padding-top:5px;
+	padding-left: 5px;
+	display: none;
+	position: absolute;
+	left: 430px;
+	box-shadow: 2px 2px 4px #ddd;
+	z-index: 120;
+}
+#cpdq .xb,#cpdq1 .xb{
+	color: red;
+    font-family: "微软雅黑"; 
+	font-size: 17px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+#cpdq span,#cpdq1 span{
+	font-size: 13px;
+	margin-left: 15px;
+}
+#cpdq a,#cpdq1 a{
+    color: rgb(153,153,153);
+}
+.dis{
+	display: inline-block;
+}
+#cpdq img,#cpdq1 img{
+	position: absolute;
+	right: -50px;
+	bottom: -35px
+}
+#section_one{
+	width:990px;
+	height:120px;
+	margin-left: 430px;
+	position: relative;
+}
+#section_one img{
+	position: absolute;
+	top:42px;
+	left:100px;
+	width:30px;
+	height:30px;
+}
+#section_one a{
+	color: black;
+	font-weight: bold;
+	margin-left:140px; 
+	position: absolute;
+	top:42px;
+
+}
+#section_two{
+	width:990px;
+	height:240px;
+	background-color: white;
+	margin-left: 430px;
+}
+#my_physique{
+	height:50px;
+	background-color: rgb(253,244,228);
+}
+#my_physique .list-inline{
+	margin:0;
+	padding:0;
+}
+#my_physique .list-inline li{
+	margin:0;
+	padding:0 20px;
+}
+#my_physique .list-inline a{
+	color:black;
+	line-height: 50px;
+	font-weight: bold;
+}
+#my_physique .list-inline li:hover{
+	background-color: white;
+}
+#my_physique .list-inline a:hover{
+	color:red;
+}
+.list-inline a:hover{
+	text-decoration: none;
+	color:red;
+}
+.hover1{
+	background-color: white;
+}
+.hover1 a{
+	color:red;
+}
+#div_three{
+	border-bottom: 1px solid rgb(238,238,238);
+}
+#dining_info,#prefecture{
+	display: inline-block;
+	width:210px;
+	margin-left: 15px;
+}
+#diet_culture{
+	display: inline-block;
+	width:530px;
+}
+#dining_info{
+	border-right:1px solid rgb(238,238,238);
+}
+#diet_culture{
+	border-right:1px solid rgb(238,238,238);
+}
+#div_three .list-inline a{
+	color:black;
+}
+#div_three .list-inline a{
+	margin:0;
+	padding:5px 3px;
+}
+#div_three .list-inline li:hover{
+	background-color: red;
+}
+#div_three .list-inline a:hover{
+	color:white;
+}
+#div_three .list-inline li{
+	margin:0;
+	padding:5px 4px;
+}
+h2,h3{
+	font-weight: bold;
+}
+#my_physique .hover1 a{
+	color:red;
+	background-color: white;
+}
+#health_guide{
+	height: 75px;
+	margin-left: 15px;
+}
+#health_guide .list-inline a{
+	color:black;
+	text-align: center;
+	margin-left: 5px; 
+}
+#health_guide .list-inline a:hover{
+	color:white;
+}
+#health_guide .list-inline li:hover{
+	background-color: red;
+}
+#health_guide .list-inline li{
+	margin:0;
+	padding:5px 4px;
+}
+#section_four{
+	width:990px;
+	height:120px;
+	margin-left: 430px;
+	position: relative;
+}
+#section_four h3{
+	line-height: 80px;
+	text-align: center;
+}
+#section_four span{
+	position: absolute;
+	top:25px;
+	right:0px;
+}
+#section_four a{
+	color:gray;
+	font-size: 10px;
+}
+#section_four .newest{
+	color:red;
+}
+#section_four a:hover{
+	color:red;
+}
+#section_five{
+	margin-left:415px;
+	margin-top: -20px;
+	width:1010px;
+}
+#section_five img{
+	margin-left:15px;
+}
+#content1 .white1 h5,#content1 .white2 h5,#content1 .white3 h5,.white4 h5{
+	margin-left: 15px;
+	font-weight:bold;
+}
+#content1 .white1 span,#content1 .white2 span,#content1 .white3 span,#content1 .white4 span{
+	margin-left: 15px;
+}
+#content1 .white1,#content1 .white2,#content1 .white3,#content1 .white4{
+	width:232px;
+	height:100px;
+	background-color: white;
+	display: inline-block;
+	margin-left: 15px;
+}
+#content1 .gray1{
+	color:gray;
+	font-size: 10px;
+}
+#content1 .red1{
+	font-size: 10px;
+	color:red;
+	margin-left: 15px;
+	margin-top:10px;
+}
+#content1 p a{
+	color: red;
+}
+#content1 h5 a{
+	color: black;
+}
+#content1 h5 a:hover{
+	color: red;
+	text-decoration:none;
+}
+#content2{
+	margin-top: 20px;
+}
+#content2 .white5 h5,#content2 .white6 h5,#content2 .white7 h5,#content2 .white8 h5{
+	margin-left: 15px;
+	font-weight:bold;
+}
+#content2 .white5 span,#content2 .white6 span,#content2 .white7 span,#content2 .white8 span{
+	margin-left: 15px;
+}
+#content2 .white5,#content2 .white6,#content2 .white7,#content2 .white8{
+	width:232px;
+	height:100px;
+	background-color: white;
+	display: inline-block;
+	margin-left: 15px;
+}
+#content2 .gray2{
+	color:gray;
+	font-size: 10px;
+}
+#content2 .red1{
+	font-size: 10px;
+	color:red;
+	margin-left: 15px;
+	margin-top:10px;
+}
+#content2 p a{
+	color: red;
+}
+#content2 h5 a{
+	color: black;
+}
+#content2 h5 a:hover{
+	color: red;
+	text-decoration:none;
+}
+#content3{
+	margin-top: 20px;
+}
+#content3 .white9 h5,#content3 .white10 h5,#content3 .white11 h5,#content3 .white12 h5{
+	margin-left: 15px;
+	font-weight:bold;
+}
+#content3 .white9 span,#content3 .white10 span,#content3 .white11 span,#content3 .white12 span{
+	margin-left: 15px;
+}
+#content3 .white9,#content3 .white10,#content3 .white11,#content3 .white12{
+	width:232px;
+	height:100px;
+	background-color: white;
+	display: inline-block;
+	margin-left: 15px;
+}
+#content3 .gray3{
+	color:gray;
+	font-size: 10px;
+}
+#content3 .red1{
+	font-size: 10px;
+	color:red;
+	margin-left: 15px;
+	margin-top:10px;
+}
+#content3 p a{
+	color: red;
+}
+#content3 h5 a{
+	color: black;
+}
+#content3 h5 a:hover{
+	color: red;
+	text-decoration:none;
+}
+.zzsc{ 
+	   margin:0 auto;
+       width:620px; 
+       height:100px;
+      /* border:1px solid #F00;*/
+      margin-top: 60px;
+} 
+.page{
+    list-style: none;
+}
+.page>li{
+    float: left;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: rgb(245,245,245);
+}
+.page .pageItem{
+   /* border: solid thin #DDDDDD;*/
+    margin: 5px;
+}
+.page .pageItemActive{
+    border: solid thin red;
+    margin: 5px;
+    background-color: red;
+    color:white;
+}
+.page .pageItem:hover{
+    border: solid thin red;
+    background-color: red;
+    color:white;
+}
+.page .pageItemDisable{
+    /*border: solid thin #DDDDDD;*/
+    margin: 5px;
+    background-color: rgb(245,245,245);
+}
+ footer{
+	width: 100%;
+	height: 500px;
+	background-color: rgb(63,58,50);
+	padding-top: 20px;
+	
+}
+.footer{
+	margin-top: -60px;
+}
+#footer{
+	margin-left: 23%;
+	width: 994px;
+	height: 450px;
+
+}
+.fd{
+	display: inline-block;
+}
+#fd{
+	display: inline-block;
+	margin-left: 185px;
+}
+.fd p{
+	font-size: 16px;
+	color: red;
+}
+.fd span{
+	font-size:13px;
+	color: white;
+}
+#fd div{
+	display: inline-block;
+}
+#fd p{
+	text-align: center;
+	margin-top: 20px;
+}
+#fd a{
+	font-size:13px;
+	color: rgb(153,153,153);
+}
+#fd a:hover{
+	color: white;
+}
+#footer h5{
+	color: white;
+	margin-top: 40px;
+}
+#footer .hx{
+	width: 100%;
+	border:1px solid rgb(68,68,68);
+}
+#footer table{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer table td{
+	width: 99px;
+	height: 25px;
+}
+#footer a{
+	font-size: 13px;
+	color: rgb(153,153,153);
+}
+#footer table a:hover{
+	color: red;
+}
+#zx ul{
+	margin-left: 40px;
+}
+#zx li{
+	display: inline-block;
+	margin-left: 20px;
+}
+#zx li:hover{
+	background-color: rgb(250,50,50);
+}
+#zx li a:hover{
+	text-decoration: none;
+	color: white;
+}

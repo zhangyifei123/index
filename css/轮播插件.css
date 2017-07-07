@@ -1,0 +1,97 @@
+body{
+	margin:0;
+	overflow-x: hidden;
+}
+#sbanner *{overflow: hidden;margin:0px;padding:0px;font-family:"微软雅黑";font-size:12px; text-decoration:none;list-style-type:none;}
+#sbanner{width:100%;height:100%;}
+#sbanner .sbannerCon{width:100%;margin:0px auto;position:relative;}
+#sbanner .sbannerCon .sbefore{background:rgb(250,232,200);position:absolute;left:0;top:0;z-index:100;}
+#sbanner .sbannerCon .sbefore img{position:absolute;right:100px;cursor:pointer;}
+#sbanner .sbannerCon .safter{background:rgb(250,232,200);position:absolute;right:0;top:0;z-index:100;}
+#sbanner .sbannerCon .safter img{position:absolute;left:100px;cursor:pointer;}
+#sbanner .sbannerCon .sscroll{position:relative;}
+#sbanner .sbannerCon .sscroll .sitem{float:left;text-align: center;}
+/*#banner .bannerCon .scroll .item .img-box{margin: auto;}*/
+#sbanner .sbannerCon .sscroll .sitem .simg-box div{float: left; width: 280px;height: 275px;border-radius: 5px;padding: 10px; }
+#sbanner .sbannerCon .sscroll .sitem .simg-box div img{
+	width: 100%;
+	height: 80%;	
+
+}
+.simg-box div span{
+	width: 260px;
+}
+.stlt1:hover{color: red;}
+.stlt1{
+	width: 280px;
+	height: 30px;
+	background-color: white;
+ 	font-size: 20px!important;
+ 	text-align: center;
+ 	/*line-height: 40px;*/
+ 	color: rgb(51,51,51);
+	display: inline-block;
+}
+.stitle{
+	width: 280px;
+	height: 30px;
+	background-color: white;
+	font-weight: bold;
+ 	font-size: 10px!important;
+ 	text-align: center;
+ 	color: gray;
+	display: inline-block;
+}
+ #sd1{
+ 	border:1px solid red;
+ }
+ .stlt12{width: 280px;height: 70px;background-color: white;position: absolute;left: 1500px;top: 218px;z-index: 100;font-weight: bold;
+ font-size: 25px;text-align: center;line-height: 40px;color: rgb(51,51,51);}
+.scircle{
+			width: 50px;
+			height: 5px;
+		    background-color: gray;
+		    
+			display: inline-block;
+		}
+		 .slong{
+     	width: 40px;
+     	height: 4px;
+     	margin-top: 580px;
+     	border-radius: 5px;
+     	border:1px solid gray;
+        background-image:transparent ;
+     	display: inline-block;
+
+     }
+     #sArticle{
+     position: absolute;
+     left:900px;
+    
+     }
+		.sc1{
+			animation: cir 5s ease 0s infinite;
+		}
+		.sc2{
+			animation: cir 5s ease 1s infinite;
+		}
+		.sc3{
+			animation: cir 5s ease 2s infinite;
+		}
+		 @keyframes cir{
+                from{
+                    background-color: red;   
+                }
+                25%{
+                    background-color: transparent; 
+                }
+                40%{
+                    background-color:transparent; 
+                }
+                50%{
+                    background-color: transparent;   
+                }
+                to{
+                    background-color:transparent;
+                }
+            }

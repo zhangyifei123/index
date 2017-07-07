@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale = 1">		
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	<!-- <script src="../js/jquery-1.9.1.js"></script> -->
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/菜谱大全.css">
+	<link href="../css/菜谱大全.css" type="text/css" rel="stylesheet"/>
+	
+    <!-- <script src="jquery-1.9.1.js"></script> -->
+    <script src= "../js/菜谱大全.js"></script>
+</head>
+<body>
+	<div id="zt">
+	<header>
+		<div id="ymdh">
+			<img src="../image3/ymmstb.png" alt="" id="ms" class="img-responsive">
+			<input type="text" id="ymss" placeholder="请输入菜谱/食材/菜单/作者">
+			<input type="button" value="搜索" id="hjd">
+			<ul id="ymqq">
+				<li><a href="https://graph.qq.com/oauth/show?which=Login&display=pc&response_type=code&client_id=100233147&redirect_uri=http://i.meishi.cc/connect/callback.php?site=qq&state=9ad4331d59f6caf56e89bbf111f1a1b3&scope=get_user_info,add_share,list_album,add_album,upload_pic,add_topic,add_one_blog,add_weibo,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idolist,add_idol,del_idol,get_tenpay_addr"><img src="../image3/ymqq.png" alt="">QQ登录</a></li>
+				<li><a href="https://api.weibo.com/oauth2/authorize?client_id=3274300248&redirect_uri=http%3A%2F%2Fi.meishi.cc%2Fconnect%2Fcallback.php%3Fsite%3Dsina&response_type=code"><img src="../image3/ymwb.png" alt="">微博登录</a></li>
+				<li><a href="注册.html">注册</a></li>
+				<li><a href="登录.html">登录</a></li>
+			</ul>
+		</div>
+		<div id="nav">
+			<ul id="dh1">
+				<li><a href="首页.html">首页</a></li>
+				<li id="fx"><a href="菜谱大全.html">菜谱大全<img src="../image3/ymxljt.gif" alt=""></a></li>
+				<li id="fx1"><a href="饮食健康.html">饮食健康<img src="../image3/ymxljt.gif" alt=""></a></li>
+				<li><a href="美食菜单.html">美食菜单</a></li>
+				<li><a href="家具馆.html">家具馆</a></li>
+				<li><a href="美食达人.html">美食达人<img src="../image3/ymhg.png" alt="" id="hg"></a></li>
+				<li><a href="讨论组.html">讨论组</a></li>
+				<li><a href="手机版下载.html">手机版下载</a></li>
+			</ul>
+		</div>
+		<div id="cpdq">
+			<div class="xb">家常菜普</div>
+			<span><a href="饮食小常识.html">家常菜</a></span><span><a href="饮食小常识.html">凉菜</a></span><span><a href="饮食小常识.html">素食</a></span><span><a href="饮食小常识.html">晚餐</a></span><span><a href="饮食小常识.html">私家菜</a></span><span><a href="饮食小常识.html">热菜</a></span><span><a href="饮食小常识.html">海鲜</a></span><span><a href="饮食小常识.html">孕妇</a></span><span><a href="饮食小常识.html">早餐</a></span><span><a href="饮食小常识.html">午餐</a></span><span><a href="饮食小常识.html">甜品点心</a></span><span><a href="饮食小常识.html">汤粥</a></span><span><a href="饮食小常识.html">宝宝食谱婴儿食品</a></span><span><a href="饮食小常识.html">糕点主食</a></span><span><a href="饮食小常识.html">微波炉</a></span>
+			<div class="dis">
+				<div class="xb">中华菜系</div>
+				<span><a href="饮食小常识.html">川菜</a></span><span><a href="饮食小常识.html">粤菜</a></span><span><a href="饮食小常识.html">东北菜</a></span><span><a href="饮食小常识.html">湘菜</a></span><span><a href="饮食小常识.html">鲁菜</a></span><span><a href="饮食小常识.html">浙菜</a></span><span><a href="饮食小常识.html">湖北菜</a></span><span><a href="饮食小常识.html">清蒸菜</a></span>
+			</div>
+			<div class="dis">
+				<div class="xb">各地小吃</div>
+				<span><a href="饮食小常识.html">四川小吃</a></span><span><a href="饮食小常识.html">广东小吃</a></span><span><a href="饮食小常识.html">北京小吃</a></span><span><a href="饮食小常识.html">陕西小吃</a></span>
+			</div>
+			<br>
+			<div class="dis">
+				<div class="xb">外国菜谱</div>
+				<span><a href="饮食小常识.html">韩国料理</a></span><span><a href="饮食小常识.html">日本料理</a></span><span><a href="饮食小常识.html">法国菜</a></span><span><a href="饮食小常识.html">意大利餐</a></span>
+			</div>
+			<div class="dis">
+				<div class="xb">烘培</div>
+				<span><a href="饮食小常识.html">蛋糕面包</a></span><span><a href="饮食小常识.html">饼干配方</a></span><span><a href="饮食小常识.html">甜品点心</a></span>
+			</div>
+			<br>
+			<div class="dis">
+				<div class="xb">厨房百料</div>
+				<span><a href="饮食小常识.html">摆盘围边</a></span><span><a href="饮食小常识.html">烹饪技巧</a></span><span><a href="饮食小常识.html">生活妙招</a></span><span><a href="饮食小常识.html">美食专题</a></span>
+			</div>
+			<div class="dis">
+				<div class="xb">食材百料</div>
+				<span><a href="饮食小常识.html">蔬菜</a></span><span><a href="饮食小常识.html">水果</a></span><span><a href="饮食小常识.html">谷类</a></span>
+			</div>
+			<img src="../image3/ymspdq.png" alt="">
+		</div>
+		<div id="cpdq1">
+			<div class="xb">饮食健康</div>
+			<span><a href="清热去火.html">饮食小常识</a></span><span><a href="清热去火.html">美容瘦身</a></span><span><a href="清热去火.html">食品安全</a></span><span><a href="清热去火.html">养生妙方</a></span><span><a href="清热去火.html">饮食禁忌</a></span><span><a href="清热去火.html">中医保健</a></span><span><a href="清热去火.html">母婴健康饮食</a></span><span><a href="清热去火.html">饮食新闻</a></span>
+			<br>
+			<div class="dis">
+				<div class="xb">功能性调理</div>
+				<span><a href="清热去火.html">清热去火</a></span><span><a href="清热去火.html">减肥</a></span><span><a href="清热去火.html">祛痰</a></span><span><a href="清热去火.html">乌发</a></span><span><a href="清热去火.html">滋阴补肾</a></span><span><a href="清热去火.html">健脾开胃</a></span><span><a href="清热去火.html">消化不良</a></span><span><a href="清热去火.html">壮阳补阳</a></span><span><a href="清热去火.html">清热解毒</a></span><span><a href="清热去火.html">增肥</a></span>
+			</div>
+			<br>
+			<div class="dis">
+				<div class="xb">人群膳食</div>
+				<span><a href="清热去火.html">孕妇</a></span><span><a href="清热去火.html">老人</a></span><span><a href="清热去火.html">产妇</a></span><span><a href="清热去火.html">哺乳期</a></span><span><a href="清热去火.html">青少年</a></span><span><a href="清热去火.html">幼儿</a></span><span><a href="清热去火.html">学龄期儿童</a></span>
+			</div>
+			<div class="dis">
+				<div class="xb">疾病调理</div>
+				<span><a href="清热去火.html">糖尿病</a></span><span><a href="清热去火.html">高血压</a></span><span><a href="清热去火.html">痛风</a></span><span><a href="清热去火.html">胃炎</a></span><span><a href="清热去火.html">痔疮</a></span><span><a href="清热去火.html">更年期</a></span><span><a href="清热去火.html">甲状腺</a></span>
+			</div>
+			<br>
+			<div class="dis">
+				<div class="xb">脏腑调理</div>
+				<span><a href="清热去火.html">感冒</a></span><span><a href="清热去火.html">补肾</a></span><span><a href="清热去火.html">阳痿早泄</a></span><span><a href="清热去火.html">不懈</a></span><span><a href="清热去火.html">便秘</a></span><span><a href="清热去火.html">腹泻</a></span><span><a href="清热去火.html">活血化瘀</a></span>
+			</div>
+			<img src="../image3/ymysjk.png" alt="">
+		</div>
+	</header>
+</div>
+<script src="../js/页眉.js"></script>
+<section>
+	<div id="section_one">
+		<div id="my_delicious">
+			<ul class="list-inline">
+				<li><a href="">我的美食属性（未开放）</a></li>
+				<li class="hover1"><a href="">家常菜谱</a></li>
+				<li><a href="">中华菜系</a></li>
+				<li><a href="">各地小吃</a></li>
+				<li><a href="">外国菜谱</a></li>
+				<li><a href="">烘焙</a></li>
+				<li><a href="">厨房百科</a></li>
+				<li><a href="">食材百科</a></li>
+			</ul>
+		</div>
+		<div id="homely_recipes">
+			<h3>家常菜谱</h3>
+			<ul class="list-inline">
+				<li><a href="">家常菜</a></li>
+				<li><a href="">私家菜</a></li>
+				<li><a href="">凉菜</a></li>
+				<li><a href="">海鲜</a></li>
+				<li><a href="">热菜</a></li>
+				<li><a href="">汤粥</a></li>
+				<li><a href="">素食</a></li>
+				<li><a href="">酱料蘸料</a></li>
+				<li><a href="">微波炉</a></li>
+				<li><a href="">火锅底料</a></li>
+				<li><a href="">甜品点心</a></li>
+				<li><a href="">糕点主食</a></li>
+				<li><a href="">干果制作</a></li>
+				<li><a href="">卤酱</a></li>
+				<li><a href="">时尚饮品</a></li>
+			</ul>
+		</div>
+		<div id="div_three">
+			<div id="everyday">
+				<h3>每日三餐</h3>
+				<ul class="list-inline">
+					<li><a href="">早餐</a></li>
+					<li><a href="">午餐</a></li>
+					<li><a href="">晚餐</a></li>
+					<li><a href="">下午茶</a></li>
+					<li><a href="">夜宵</a></li>
+				</ul>
+			</div>
+			<div id="person">
+				<h3>人群</h3>
+				<ul class="list-inline">
+					<li><a href="">老年人</a></li>
+					<li><a href="">产妇</a></li>	
+					<li><a href="">孕妇</a></li>
+					<li><a href="">宝宝食谱婴儿食谱</a></li>
+				</ul>
+			</div>
+			<div id="effect">
+				<h3>功效</h3>
+				<ul class="list-inline">
+					<li><a href="">疾病调理</a></li>
+					<li><a href="">功能性调理</a></li>
+					<li><a href="">脏腑调理</a></li>
+					<li><a href="">人群膳食</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="section_two">
+		<h3>印象中的那些妈妈的味道</h3>
+		<span><a href="" class="newest">最新</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">最热</a></span>
+	</div>
+ <div id="section_three">
+	<div id="screenings">
+		<img src="../image3/a.gif" alt="">
+		<ul class="list-inline">
+			<li class="blacks blacktwo">普通筛选</li>
+			<li class="reds""><a href="">食材筛选</a></li>
+		</ul>
+	</div>
+	<div id="search">
+			<input class="search" type="text" placeholder="请输入您想查找的食材" id="search1">
+			<input type="submit" class="ss" value="">
+		<div id="Number_of_sorting">
+			<span>按数量排序</span>
+			<div id="seasonal">
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+				<div class="seasonal1">
+					<img src="../image3/0.png" alt="">
+					<p>五花肉</p>
+					<span>2505</span>
+				</div>
+			</div>
+			<div id="unfold">
+				<p>展开全部>></p>
+			</div>
+		</div>
+	</div>
+  </div>
+  <div class="leftsidebar_box">
+  		<div id="screening">
+		<img src="../image3/a.gif" alt="">
+		<ul class="list-inline">
+			<li class="blacks">普通筛选</li>
+			<li class="reds redtwo">食材筛选</li>
+		</ul>
+	</div>
+		<dl class="system_log">
+		    <dt>选择难度
+			<dd class="first_dd"><a href="#">新手尝试</a>
+				<a href="#">初级入门</a>
+				<a href="#">初级水平</a>
+				<a href="#">中级掌勺</a>
+				<a href="#">高级厨师</a>
+				<a href="#">厨神级</a>
+			</dd>
+		</dl>
+		<dl class="custom">
+			<dt>选择工艺
+			<dd class="first_dd"><a href="#">炒</a></dd>
+			<dd><a href="#">蒸</a></dd>
+			<dd><a href="#">煮</a></dd>
+			<dd><a href="#">炖</a></dd>
+			<dd><a href="#">拌</a></dd>
+			<dd><a href="#">烧</a></dd>
+			<dd><a href="#">煎</a></dd>
+			<dd><a href="#">炸</a></dd>
+			<dd><a href="#">烘焙</a></dd>
+			<dd><a href="#">微波</a></dd>
+			<dd><a href="#">蒸</a></dd>
+			<dd><a href="#">煮</a></dd>
+			<dd><a href="#">炖</a></dd>
+		</dl>
+		<dl class="channel">
+			<dt>选择口味
+			<dd class="first_dd"><a href="#">家常味</a></dd>
+			<dd><a href="#">香辣味</a></dd>
+			<dd><a href="#">咸鲜味</a></dd>
+			<dd><a href="#">甜味</a></dd>
+			<dd><a href="#">酸辣味</a></dd>
+			<dd><a href="#">麻辣味</a></dd>
+			<dd><a href="#">酱香味</a></dd>
+			<dd><a href="#">奶香味</a></dd>
+			<dd><a href="#">蒜香味</a></dd>
+			<dd><a href="#">鱼香味</a></dd>
+		</dl>
+		<dl class="app">
+			<dt>选择时间
+			<dd class="first_dd"><a href="#">&lt;5分钟</a></dd>
+			<dd><a href="#">&lt;10分钟</a></dd>
+			<dd><a href="#">&lt;15分钟</a></dd>
+			<dd><a href="#">&lt;30分钟</a></dd>
+			<dd><a href="#">&lt;60分钟</a></dd>
+			<dd><a href="#">&lt;90分钟</a></dd>
+			<dd><a href="#">&lt;2小时</a></dd>
+			<dd><a href="#">&lt;数小时</a></dd>
+			<dd><a href="#">&lt;一天</a></dd>
+			<dd><a href="#">&lt;数天</a></dd>
+		</dl>
+  </div>
+<script>
+
+</script>
+<!-- <script>
+	function fun(){
+		var b = $("#search1").val();
+		if (b = "" && b = "请输入您想查找的食材") {
+			alert('请输入您想查找的食材');
+		}
+	}
+</script> -->
+<script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(".leftsidebar_box dt").css({"background-color":"white"});
+	$(function(){
+		$(".leftsidebar_box dd").hide();
+		$(".leftsidebar_box dt").click(function(){
+			$(".leftsidebar_box dt").css({"background-color":"white"})
+			$(this).parent().find('dd').removeClass("menu_chioce");
+			$(this).css({"background-color": "white"});
+			$(".menu_chioce").slideUp(); 
+			$(this).parent().find('dd').slideToggle();
+			$(this).parent().find('dd').addClass("menu_chioce");
+		});
+	})
+</script>
+<div id="picture">
+	<div id="photos">
+		<a href="青瓜炒鸡蛋.html" data-toggle="tooltip" title="黄金吐司卷"><img src="../image3/1.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html" data-toggle="tooltip" title="敲虾豆皮汤"><img src="../image3/2.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html" data-toggle="tooltip" title="红茶奶酥"><img src="../image3/3.jpg" alt=""></a>
+		<div id="box1">
+			<div id="content1">
+				<div class="white1">
+					<h5>黄金吐司卷</h5>
+					<span class="gray1">16 评论 6602 人气</span>
+					<br>
+					<p class="red1">迷糊猫的白雪世界dl</p>
+				</div>
+				<div class="gray_one">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>	
+		</div>
+		<div id="box2">
+			<div id="content2">
+				<div class="white2">
+					<h5>敲虾豆皮汤</h5>
+					<span class="gray1">14 评论 7077 人气</span>
+					<br>
+					<p class="red1">孩妈@妮妮</p>
+				</div>
+				<div class="gray_two">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>	
+		<div id="box3">
+			<div id="content3">
+				<div class="white3">
+					<h5>红茶奶酥(上寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_three">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="photos2">
+		<a href="青瓜炒鸡蛋.html" data-toggle="tooltip" title="黄金吐司卷"><img src="../image3/4.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html" data-toggle="tooltip" title="敲虾豆皮汤"><img src="../image3/5.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html" data-toggle="tooltip" title="红茶奶酥"><img src="../image3/6.jpg" alt=""></a>
+		<div id="box1">
+			<div id="content4">
+				<div class="white1">
+					<h5>黄金吐司卷</h5>
+					<span class="gray1">16 评论 6602 人气</span>
+					<br>
+					<p class="red1">迷糊猫的白雪世界dl</p>
+				</div>
+				<div class="gray_one">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>	
+		</div>
+		<div id="box2">
+			<div id="content5">
+				<div class="white2">
+					<h5>敲虾豆皮汤</h5>
+					<span class="gray1">14 评论 7077 人气</span>
+					<br>
+					<p class="red1">孩妈@妮妮</p>
+				</div>
+				<div class="gray_two">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>	
+		<div id="box3">
+			<div id="content6">
+				<div class="white3">
+					<h5>红茶奶酥(上寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_three">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="photos3">
+		<a href="青瓜炒鸡蛋.html" data-toggle="tooltip" title="黄金吐司卷"><img src="../image3/7.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html" data-toggle="tooltip" title="敲虾豆皮汤"><img src="../image3/8.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html" data-toggle="tooltip" title="红茶奶酥"><img src="../image3/9.jpg" alt=""></a>
+		<div id="box1">
+			<div id="content7">
+				<div class="white1">
+					<h5>黄金吐司卷</h5>
+					<span class="gray1">16 评论 6602 人气</span>
+					<br>
+					<p class="red1">迷糊猫的白雪世界dl</p>
+				</div>
+				<div class="gray_one">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>	
+		</div>
+		<div id="box2">
+			<div id="content8">
+				<div class="white2">
+					<h5>敲虾豆皮汤</h5>
+					<span class="gray1">14 评论 7077 人气</span>
+					<br>
+					<p class="red1">孩妈@妮妮</p>
+				</div>
+				<div class="gray_two">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>	
+		<div id="box3">
+			<div id="content9">
+				<div class="white3">
+					<h5>红茶奶酥(上寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_three">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="photos4">
+		<a href="青瓜炒鸡蛋.html"><img src="../image3/10.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html"><img src="../image3/11.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html"><img src="../image3/12.jpg" alt=""></a>
+		<div id="box1">
+			<div id="content10">
+				<div class="white1">
+					<h5>黄金吐司卷</h5>
+					<span class="gray1">16 评论 6602 人气</span>
+					<br>
+					<p class="red1">迷糊猫的白雪世界dl</p>
+				</div>
+				<div class="gray_one">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>	
+		</div>
+		<div id="box2">
+			<div id="content11">
+				<div class="white2">
+					<h5>敲虾豆皮汤</h5>
+					<span class="gray1">14 评论 7077 人气</span>
+					<br>
+					<p class="red1">孩妈@妮妮</p>
+				</div>
+				<div class="gray_two">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>	
+		<div id="box3">
+			<div id="content12">
+				<div class="white3">
+					<h5>红茶奶酥(山寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_three">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="photos5">
+		<a href=""><img src="../image3/13.jpg" alt=""></a>
+		<a href=""><img src="../image3/14.jpg" alt=""></a>
+		<a href=""><img src="../image3/15.jpg" alt=""></a>
+		<div id="box1">
+			<div id="content13">
+				<div class="white1">
+					<h5>黄金吐司卷</h5>
+					<span class="gray1">16 评论 6602 人气</span>
+					<br>
+					<p class="red1">迷糊猫的白雪世界dl</p>
+				</div>
+				<div class="gray_one">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>	
+		</div>
+		<div id="box2">
+			<div id="content14">
+				<div class="white2">
+					<h5>敲虾豆皮汤</h5>
+					<span class="gray1">14 评论 7077 人气</span>
+					<br>
+					<p class="red1">孩妈@妮妮</p>
+				</div>
+				<div class="gray_two">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>	
+		<div id="box3">
+			<div id="content15">
+				<div class="white3">
+					<h5>红茶奶酥(上寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_three">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="photos6">
+		<a href="青瓜炒鸡蛋.html"><img src="../image3/16.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html"><img src="../image3/17.jpg" alt=""></a>
+		<a href="青瓜炒鸡蛋.html"><img src="../image3/18.jpg" alt=""></a>
+		<div id="box1">
+			<div id="content16">
+				<div class="white1">
+					<h5>黄金吐司卷</h5>
+					<span class="gray1">16 评论 6602 人气</span>
+					<br>
+					<p class="red1">迷糊猫的白雪世界dl</p>
+				</div>
+				<div class="gray_one">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>	
+		</div>
+		<div id="box2">
+			<div id="content17">
+				<div class="white2">
+					<h5>敲虾豆皮汤</h5>
+					<span class="gray1">14 评论 7077 人气</span>
+					<br>
+					<p class="red1">孩妈@妮妮</p>
+				</div>
+				<div class="gray_two">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>	
+		<div id="box3">
+			<div id="content18">
+				<div class="white3">
+					<h5>红茶奶酥(上寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_three">
+				   	<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+	</div>
+		<br>
+		<br>
+		<br>
+		<div class="nextPage_1">
+    <!-- <script src="/demos/googlegg.js"></script> -->
+	<div class="zzsc"> 
+<ul class="page" maxshowpageitem="5" pagelistcount="10"  id="page12"></ul>
+
+ </div>
+</div>
+	</div>
+<br><br><br><br><br>
+<footer>
+		<div id="footer">
+			<div class ="fd">
+				<img src="../image3/yjmstb.png" alt="">
+				<p><span>中国，最大的菜谱裤</span> <b>800,000篇</b></p>
+				<p><span>每月，用户访问数量</span> <b>20,000,000次</b></p>
+				<p><span>每年，菜谱被浏览量</span> <b>36,000,000,000次</b></p>
+				<span>现在，这些是数字还在不断的增长着，欢迎您一起使用美食节</span>
+			</div>
+			<div id="fd">
+				<div>
+					<a href=""><img src="../image3/wbewm.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节官方微博</a></span></p>
+				</div>
+				<div>
+					<a href=""><img src="../image3/kjewm.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节QQ空间</a></span></p>
+				</div>
+				<div>
+					<a href=""><img src="../image3/wxewm.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节微信好友</a></span></p>
+				</div>
+				<div>
+					<a href=""><img src="../image3/sjewm.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节手机客户端</a></span></p>
+				</div>
+			</div>
+			<h5>友情链接</h5>
+			<div class="hx"></div>
+			<table>
+				<tr>
+					<td><a href="">美食</a></td>
+					<td><a href="">体质测试</a></td>
+					<td><a href="">伊特</a></td>
+					<td><a href="">大粤网美食</a></td>
+					<td><a href="">9酷音乐网</a></td>
+					<td><a href="">123菜谱大全</a></td>
+					<td><a href="">爱奇异生活</a></td>
+					<td><a href="">365音乐网</a></td>
+					<td><a href="">图吧</a></td>
+					<td><a href="">汽车论坛</a></td>
+				</tr>
+				<tr>
+					<td><a href="">39健康饮食</a></td>
+					<td><a href="">QQ下载</a></td>
+					<td><a href="">家居网</a></td>
+					<td><a href="">搜狐美食</a></td>
+					<td><a href="">美食天下</a></td>
+					<td><a href="">特色菜网</a></td>
+					<td><a href="">poco美食网</a></td>
+					<td><a href="">中华美食网</a></td>
+					<td><a href="">合肥公交网</a></td>
+					<td><a href="">苹果园</a></td>
+				</tr>
+				<tr>
+					<td><a href="">红餐微杂志</a></td>
+					<td><a href="">北京搜房网</a></td>
+					<td><a href="">东莞赶集网</a></td>
+					<td><a href="">厨师网</a></td>
+					<td><a href="">更多友情链接</a></td>
+				</tr>
+			</table>
+			<div class="hx"></div>
+			<div id="zx">
+				<ul>
+					<li><a href="">公司简介</a></li>
+					<li><a href="">企业文化</a></li>
+					<li><a href="">公司动态</a></li>
+					<li><a href="">免责声明</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">招贤纳士</a></li>
+					<li><a href="">商务合作</a></li>
+					<li><a href="">网站地图</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">美食节移动APP</a></li>
+				</ul>
+				<p></p>
+			</div>
+		</div>
+	</footer>
+
+<!-- <script type="text/javascript" src="../js/菜谱大全.js"></script> -->
+</section>
+<script type="text/javascript">
+    function tt(dd){
+        //alert(dd);
+    }
+    var GG = {
+        "kk":function(mm){
+           // alert(mm);
+        }
+    }
+    console.log($('#page12'));
+    window.onload = function(){
+    	$("#page12").initPage(150,1,GG.kk);
+    }
+    
+  </script>
+
+<script src="../js/菜谱大全.js"></script>
+</body>
+</html>

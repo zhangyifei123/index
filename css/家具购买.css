@@ -1,0 +1,267 @@
+body{
+	overflow-x: hidden;
+}
+#sec1{
+	color: rgb(102,102,102);
+	margin-left: 23%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#sec1 a{
+	/*font-family:  "微软雅黑"; */
+	font-size: 13px;
+	color: rgb(102,102,102);
+}
+#secnav{
+	width: 100%;
+	height: 65px;
+	background-color: rgba(255,255,255,0.5);
+	padding-top: 25px;
+}
+#secnav li{
+	display: inline-block;
+	margin-left: 70px;
+}
+#secnav #cpsy{
+	margin-left: 420px;
+}
+#secnav li a{
+	font-weight: bold;
+	font-family:  "微软雅黑"; 
+	color: black;
+	font-size: 15px;
+}
+#goumai{
+	width: 990px;
+	height: 607px;
+	background-color: white;
+	margin-left: 23%;
+	padding: 20px;
+}
+#cpt{
+	display: inline-block;
+}
+ #gmcp{
+ 	width: 450px;
+ 	height: 450px;
+ 	background-image: url(../images/gmdc.jpg);
+ 	background-size: 450px 450px;
+ }
+ #spxx{
+ 	display: inline-block;
+ 	width: 485px;
+ 	padding-top: 20px;
+ 	font-size: 25px;
+ 	font-family:  "微软雅黑"; 
+ 	vertical-align: top;
+ 	margin-left: 5px;
+ }
+ #spxx #jfdh{
+ 	width:482px;
+ 	height: 260px;
+ 	border:2px solid rgb(238,238,238);
+ 	margin-top: 20px;
+ 	padding-left:20px; 
+ 	margin-bottom: 20px;
+ }
+ #dyh{
+ 	height: 40px;
+ 	background-color: rgb(238,238,238);
+ 	margin-bottom: 15px;
+ }
+ #dyg{
+ 	width: 70px;
+ 	height: 40px;
+ 	font-size: 13px;
+ 	color: red;
+ 	line-height: 40px;
+ 	background-color: white;
+ }
+ #jfdh p{
+	font-size: 15px;
+	color: rgb(102,102,102);
+	line-height: 35px;
+ }
+ #jfdh p #s1{
+ 	font-size:22px;
+ 	color: red;
+ 	font-weight: bold;
+ }
+ #jfdh p #s2{
+ 	font-size: 13px;
+ 	color: rgb(153,153,153);
+ }
+ #jfdh p s{
+ 	font-size: 22px;
+ 	font-weight: bold;
+ 	color: rgb(204,204,204);
+ 	margin-right: 30px;
+ }
+ #jfdh p img{
+ 	margin-right: 30px;
+ }
+ #spxx input{
+ 	border:none;
+ 	font-size: 17px;
+ 	color: white;
+ }
+ #yqlj{
+ 	width: 482px;
+ 	height: 115px;
+ 	background-color: rgb(245,245,245);
+ 	margin-top: 45px;
+ 	padding-left: 15px;
+ }
+ #yqlj span{
+ 	font-size: 13px;
+ 	font-weight: bold;
+ 	font-family:  "宋体"; 
+ }
+ #yqlj #img11{
+ 	margin-left: 200px;
+ }
+ #tm{
+ 	margin-top: 15px;
+ 	vertical-align: top;
+ }
+ #ljqw{
+ 	width: 120px;
+ 	height: 80px;
+ 	display: inline-block;
+ }
+ #ljqw span {
+ 	font-size: 18px;
+ 	color: rgb(255,50,50);
+ }
+ #ljqw p a{
+  	font-size: 12px;
+  	color: rgb(102,102,102);
+ }
+  #ljqw p a:hover{
+  	color: rgb(255,50,50);
+  }
+  #sec1 a:hover{
+  	color: red;
+  }
+#tp{
+	width: 720px;
+	background-color: white;
+	margin-left: 704px;
+	margin-top: 25px;
+}
+#yzh{
+	width: 720px;
+	height: 45px;
+	background-color: rgb(245,245,245);
+}
+#yzg{
+	width: 100px;
+	height: 45px;
+	background-color: white;
+	line-height: 45px;
+	color: red;
+	font-size: 14px;
+	border-top: 2px solid red;
+	padding-left: 20px;
+}
+#tpx{
+	width: 720px;
+	background-color: white;
+	margin-left: 704px;
+	margin-top: 10px;
+}
+#yzh1{
+	width: 720px;
+	height: 45px;
+	background-color: rgb(245,245,245);
+}
+#yzg1{
+	width: 100px;
+	height: 45px;
+	background-color: white;
+	line-height: 45px;
+	color: red;
+	font-size: 14px;
+	border-top: 2px solid red;
+	padding-left: 20px;
+}
+#duihuan{
+	font-size: 13px;
+	color: rgb(102,102,102);
+	padding:20px;
+}
+#pj{
+	width: 720px;
+	background-color: white;
+	margin-left: 704px;
+	margin-top: 10px;
+}
+#yzh2{
+	width: 720px;
+	height: 45px;
+	background-color: rgb(245,245,245);
+}
+#yzg2{
+	width: 80px;
+	height: 45px;
+	background-color: white;
+	line-height: 45px;
+	color: red;
+	font-size: 14px;
+	border-top: 2px solid red;
+	padding-left: 20px;
+}
+#pj img{
+	margin:15px;
+	vertical-align: top;
+}
+#pjzt{
+	margin-left: 85px;
+	font-size: 13px;
+	font-family: "微软雅黑"; 
+}
+#cbl{
+	width: 252px;
+	background-color: white;
+	position: absolute;
+	top: 958px;
+	left: 23%;
+}
+#yzh3{
+	width: 252px;
+	height: 42px;
+	background-color: rgb(245,245,245);
+	padding-left: 15px;
+	font-family:  "微软雅黑"; 
+	line-height: 42px;
+}
+#qt{
+	width: 252px;
+	height: 344px;
+	border-bottom:1px solid rgb(250,250,250);
+}
+#cpm a{
+	font-size: 11px;
+	margin-left:15px;
+	color: black;
+}
+#cpm a:hover{
+	color: red;
+}
+#jifen{
+	font-size: 20px;
+	margin-left:15px;
+	color: red;
+}
+#qt1{
+	width: 252px;
+	height: 302px;
+	border-bottom:1px solid rgb(250,250,250);
+}
+#cbl2{
+	width: 252px;
+	background-color: white;
+	position: absolute;
+	top: 1925px;
+	left: 23%;
+}

@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale = 1">
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/饮小识.css">
+	<link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/comment2.css">
+
+	
+	<style>
+		body{background-color:rgb(250,232,200)}
+	</style>
+</head>
+<body>
+<div id="zt">
+	<header>
+		<div id="ymdh">
+      <img src="../image3/ymmstb.png" alt="" id="ms" class="img-responsive">
+      <input type="text" id="ymss" placeholder="请输入菜谱/食材/菜单/作者">
+      <input type="button" value="搜索" id="hjd">
+      <ul id="ymqq">
+        <li><a href="https://graph.qq.com/oauth/show?which=Login&display=pc&response_type=code&client_id=100233147&redirect_uri=http://i.meishi.cc/connect/callback.php?site=qq&state=9ad4331d59f6caf56e89bbf111f1a1b3&scope=get_user_info,add_share,list_album,add_album,upload_pic,add_topic,add_one_blog,add_weibo,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idolist,add_idol,del_idol,get_tenpay_addr"><img src="../image3/ymqq.png" alt="">QQ登录</a></li>
+        <li><a href="https://api.weibo.com/oauth2/authorize?client_id=3274300248&redirect_uri=http%3A%2F%2Fi.meishi.cc%2Fconnect%2Fcallback.php%3Fsite%3Dsina&response_type=code"><img src="../image3/ymwb.png" alt="">微博登录</a></li>
+        <li><a href="注册.html">注册</a></li>
+        <li><a href="登录.html">登录</a></li>
+      </ul>
+    </div>
+    <div id="nav">
+      <ul id="dh1">
+        <li><a href="首页.html">首页</a></li>
+        <li id="fx"><a href="菜谱大全.html">菜谱大全<img src="../image3/ymxljt.gif" alt=""></a></li>
+        <li id="fx1"><a href="饮食健康.html">饮食健康<img src="../image3/ymxljt.gif" alt=""></a></li>
+        <li><a href="美食菜单.html">美食菜单</a></li>
+        <li><a href="家具馆.html">家具馆</a></li>
+        <li><a href="美食达人.html">美食达人<img src="../image3/ymhg.png" alt="" id="hg"></a></li>
+        <li><a href="讨论组.html">讨论组</a></li>
+        <li><a href="手机版下载.html">手机版下载</a></li>
+      </ul>
+    </div>
+    <div id="cpdq">
+      <div class="xb">家常菜普</div>
+      <span><a href="饮食小常识.html">家常菜</a></span><span><a href="饮食小常识.html">凉菜</a></span><span><a href="饮食小常识.html">素食</a></span><span><a href="饮食小常识.html">晚餐</a></span><span><a href="饮食小常识.html">私家菜</a></span><span><a href="饮食小常识.html">热菜</a></span><span><a href="饮食小常识.html">海鲜</a></span><span><a href="饮食小常识.html">孕妇</a></span><span><a href="饮食小常识.html">早餐</a></span><span><a href="饮食小常识.html">午餐</a></span><span><a href="饮食小常识.html">甜品点心</a></span><span><a href="饮食小常识.html">汤粥</a></span><span><a href="饮食小常识.html">宝宝食谱婴儿食品</a></span><span><a href="饮食小常识.html">糕点主食</a></span><span><a href="饮食小常识.html">微波炉</a></span>
+      <div class="dis">
+        <div class="xb">中华菜系</div>
+        <span><a href="饮食小常识.html">川菜</a></span><span><a href="饮食小常识.html">粤菜</a></span><span><a href="饮食小常识.html">东北菜</a></span><span><a href="饮食小常识.html">湘菜</a></span><span><a href="饮食小常识.html">鲁菜</a></span><span><a href="饮食小常识.html">浙菜</a></span><span><a href="饮食小常识.html">湖北菜</a></span><span><a href="饮食小常识.html">清蒸菜</a></span>
+      </div>
+      <div class="dis">
+        <div class="xb">各地小吃</div>
+        <span><a href="饮食小常识.html">四川小吃</a></span><span><a href="饮食小常识.html">广东小吃</a></span><span><a href="饮食小常识.html">北京小吃</a></span><span><a href="饮食小常识.html">陕西小吃</a></span>
+      </div>
+      <br>
+      <div class="dis">
+        <div class="xb">外国菜谱</div>
+        <span><a href="饮食小常识.html">韩国料理</a></span><span><a href="饮食小常识.html">日本料理</a></span><span><a href="饮食小常识.html">法国菜</a></span><span><a href="饮食小常识.html">意大利餐</a></span>
+      </div>
+      <div class="dis">
+        <div class="xb">烘培</div>
+        <span><a href="饮食小常识.html">蛋糕面包</a></span><span><a href="饮食小常识.html">饼干配方</a></span><span><a href="饮食小常识.html">甜品点心</a></span>
+      </div>
+      <br>
+      <div class="dis">
+        <div class="xb">厨房百料</div>
+        <span><a href="饮食小常识.html">摆盘围边</a></span><span><a href="饮食小常识.html">烹饪技巧</a></span><span><a href="饮食小常识.html">生活妙招</a></span><span><a href="饮食小常识.html">美食专题</a></span>
+      </div>
+      <div class="dis">
+        <div class="xb">食材百料</div>
+        <span><a href="饮食小常识.html">蔬菜</a></span><span><a href="饮食小常识.html">水果</a></span><span><a href="饮食小常识.html">谷类</a></span>
+      </div>
+      <img src="../image3/ymspdq.png" alt="">
+    </div>
+    <div id="cpdq1">
+      <div class="xb">饮食健康</div>
+      <span><a href="清热去火.html">饮食小常识</a></span><span><a href="清热去火.html">美容瘦身</a></span><span><a href="清热去火.html">食品安全</a></span><span><a href="清热去火.html">养生妙方</a></span><span><a href="清热去火.html">饮食禁忌</a></span><span><a href="清热去火.html">中医保健</a></span><span><a href="清热去火.html">母婴健康饮食</a></span><span><a href="清热去火.html">饮食新闻</a></span>
+      <br>
+      <div class="dis">
+        <div class="xb">功能性调理</div>
+        <span><a href="清热去火.html">清热去火</a></span><span><a href="清热去火.html">减肥</a></span><span><a href="清热去火.html">祛痰</a></span><span><a href="清热去火.html">乌发</a></span><span><a href="清热去火.html">滋阴补肾</a></span><span><a href="清热去火.html">健脾开胃</a></span><span><a href="清热去火.html">消化不良</a></span><span><a href="清热去火.html">壮阳补阳</a></span><span><a href="清热去火.html">清热解毒</a></span><span><a href="清热去火.html">增肥</a></span>
+      </div>
+      <br>
+      <div class="dis">
+        <div class="xb">人群膳食</div>
+        <span><a href="清热去火.html">孕妇</a></span><span><a href="清热去火.html">老人</a></span><span><a href="清热去火.html">产妇</a></span><span><a href="清热去火.html">哺乳期</a></span><span><a href="清热去火.html">青少年</a></span><span><a href="清热去火.html">幼儿</a></span><span><a href="清热去火.html">学龄期儿童</a></span>
+      </div>
+      <div class="dis">
+        <div class="xb">疾病调理</div>
+        <span><a href="清热去火.html">糖尿病</a></span><span><a href="清热去火.html">高血压</a></span><span><a href="清热去火.html">痛风</a></span><span><a href="清热去火.html">胃炎</a></span><span><a href="清热去火.html">痔疮</a></span><span><a href="清热去火.html">更年期</a></span><span><a href="清热去火.html">甲状腺</a></span>
+      </div>
+      <br>
+      <div class="dis">
+        <div class="xb">脏腑调理</div>
+        <span><a href="清热去火.html">感冒</a></span><span><a href="清热去火.html">补肾</a></span><span><a href="清热去火.html">阳痿早泄</a></span><span><a href="清热去火.html">不懈</a></span><span><a href="清热去火.html">便秘</a></span><span><a href="清热去火.html">腹泻</a></span><span><a href="清热去火.html">活血化瘀</a></span>
+      </div>
+      <img src="../image3/ymysjk.png" alt="">
+    </div>
+	</header>
+</div>
+          <div class="div_1">
+                 <a href="首页.html" class="div_2">首页</a> <span>></span>
+                 <a href="饮食健康.html" class="div_2">健康</a> <span>></span>
+                 <a href="饮食小常识.html" class="div_2">#饮食小常识#</a>
+          </div>
+    <div class="divv">
+         <div class="div_3">
+              <a href="" class="div_4">考前饮食三大忌,这些坑你不要踩</a>
+         </div>
+         <div class="user">
+               <a href="" class="img">
+                  <img src="../image3/饮小识标.png" alt="">
+                  <span class="masker pngFix"></span>
+               </a>
+               <div class="info">
+                      <h4>
+                          <em>美食杰</em>
+                      </h4>
+                      <b>2017-06-05 /
+                          <em id="viewclicknum">人看过 /</em>
+                          <a href="#p1" _hover-ignore="1">评论(2)</a>
+                          </b> 
+                </div>
+                        <span class="fabtns">
+                          <a href="javascript:add_fav(1842449)" title="考前饮食三大忌，这些坑你不要踩的做法" class="addToFav_con" id="addToFav_con" _hover-ignore="1">收藏
+                          <span id="f_num"></span>
+                          </a>
+                          <div id="bdshare" class="bdshare_b"><span class="fen_1">分享到</span><img src="../image3/小1.gif" alt=""><img src="../image3/小2.gif" alt=""></div>
+                        </span>
+         </div>
+         <br>
+         <br>
+
+         <div class="div_5">
+               <div class="div_6"><span class="div_7"> <br>&nbsp;
+               &nbsp;
+               &nbsp;距离高考还有一周,许多学生家长都想方设法的在最后的冲刺时刻给孩子"补补".</span><br><br><br><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然而，盲目进补不仅不能帮助考生在考试中取得好成绩，还可能适得其反。在这个对许多考生来说是至关重要的人生节点的时候，怎样吃才能避免关键时刻“掉链子”？洽尔和咆哮姐为大家总结了考前饮食三大“忌”，快来看看怎么躲过这些坑吧！</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>忌 ：饮食变化大</b><br><br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;没有所谓的高考营养餐或补脑神器。备考期间考生精神压力大，肠胃敏感，不熟悉的食物可能会引发肠胃应激反应，轻者感到胃痛不适，严重可能造成腹泻，不利于考试发挥。考试期间应向考生提供符合日常习惯的饮食，也不要劝考生“多吃”，跟平时一样“七分饱刚刚好”，吃太饱可能会导致“饭困”。
+                忌：用脑需要甜食</span>
+               <br><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>忌 ：用脑需要甜食</b><br><br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;没有所谓的高考营养餐或补脑神器。备考期间考生精神压力大，肠胃敏感，不熟悉的食物可能会引发肠胃应激反应，轻者感到胃痛不适，严重可能造成腹泻，不利于考试发挥。考试期间应向考生提供符合日常习惯的饮食，也不要劝考生“多吃”，跟平时一样“七分饱刚刚好”，吃太饱可能会导致“饭困”。
+               忌：用脑需要甜食</span>
+               <br><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>备考期间，关键是要吃的舒服</b><br><br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;没有所谓的高考营养餐或补脑神器。备考期间考生精神压力大，肠胃敏感，不熟悉的食物可能会引发肠胃应激反应，轻者感到胃痛不适，严重可能造成腹泻，不利于考试发挥。考试期间应向考生提供符合日常习惯的饮食，也不要劝考生“多吃”，跟平时一样“七分饱刚刚好”，吃太饱可能会导致“饭困”。
+               忌：用脑需要甜食</span>
+               <br><br>&nbsp;&nbsp;&nbsp;&nbsp;<b>鲜虾云铜火锅</b><br><br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（食谱参考自渡边有子《无印良品的花样土锅料理》）
+               </span></div>
+               <br><br><br>
+               <div><img src="../image3/料理.jpg" alt="" class="imgge"></div><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2><b>材料</b></h2><br><br><br><div><img src="../image3/料理1.jpg" alt="" class="imgge"></div><h4>自家制鲜虾云吞6只</h4><h4>豆芽1把</h4><h4>豌豆苗1把</h4><h4>西芹1把</h4><h4>自家制高汤(清水也行)500毫升</h4><h4>姜丝(可选)适量</h4><h4>醋(可选)适量</h4>&nbsp;&nbsp;&nbsp;<h2><b>步骤</b></h2><br><h4>1.锅里加入高汤或清水，煮沸。等待期间可以用削皮刀将芹菜削成长长的薄片，豌豆苗拦腰切成两段。</h4><div><br><br><img src="../image3/料理2.jpg" alt="" class="imgge"></div><br><h4>3. 豆芽煮软了就可以加入云吞。</h4><br><div><img src="../image3/料理3.jpg" alt="" class="imgge"></div><br><h4>4. 放入芹菜，稍微烫一下就好。</h4><br><div><img src="../image3/料理4.jpg" alt="" class="imgge"></div><br><h4>5. 最后放入豆苗，也是烫一下就可以了。如果用清水煮的话，可以关火后淋一点点生抽、麻油增加香味。</h4><br><div><img src="../image3/料理5.jpg" alt="" class="imgge"></div><br><h4>6.根据喜好自己加入姜丝和醋进行调味。</h4><br><div><img src="../image3/料理7.jpg" alt="" class="imgge"></div><h2><b>总结</b></h2><br><h4>1.保持平时的饮食习惯，不要做太多变动</h4><h4>2.摄入适量的健康主食，但要少吃甜食，少喝甜饮料</h4><h4>3.少喝浓茶咖啡，保证睡眠</h4><h4>最后，洽尔和咆哮姐祝大家考试加油啦！</h4><br><h2>关于我们：</h2><br><h4> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;洽尔：美国注册营养师（Registered Dietitian），美国塔夫茨大学（Tufts University）营养学、公共卫生双硕士，目前在纽约一家医院从事临床营养工作。
+               咆哮姐：美国注册营养师（Registered Dietitian），美国约翰霍普金斯人类营养学硕士，目前在波士顿一家医院从事临床研究工作。 关于我们的微信公众号“海盐配肉又配甜”（ID: savorynsweet） 
+               大概就讲讲吃什么能减肥，吃什么能增肌，吃什么能撩到男神女神，总之我们不是一般的营养师啦，快来安利我们吧！么么哒！</h4>
+         </div>
+         <br>
+    <form action="">
+         <div class="div__1">
+           <img src="../image3/饮小识标.png" alt="" class="div__4">
+     <div class="div__3">
+              <span>给内容一个标签：</span>
+              <input type="button" value="随意吐槽" class="c1"onclick="fun()">
+   <input type="button" value="提问求解" class="c2"onclick="funn()">
+   <br><br>
+<textarea name="" class="div__2" cols="80" rows="5" placeholder="想说点什么..."></textarea >
+  <input type="submit" value="提交" class="div__5" id="content"
+  onclick="submitInfo()">
+  <br><br>
+   <div id="section_five2">排论顺序：
+		<input type="button" value="最新" class="newest">
+		<input type="button" value="最热">
+    </div>
+    </div>
+    <!--评论区域 end-->
+    <!--回复区域 begin-->
+    <div class="comment-show">
+        <div class="comment-show-con clearfix">
+            <div class="comment-show-con-img pull-left"><img src="../image3/f2.png" alt=""></div>
+            <div class="comment-show-con-list pull-left clearfix">
+                <div class="pl-text clearfix">
+                    <a href="#" class="comment-size-name">[随意吐槽]</a>
+                    <span class="my-pl-con">&nbsp;来啊 造作啊!</span>
+                </div>
+                <div class="date-dz">
+                    <span class="date-dz-left pull-left comment-time">2017-5-2 11:11:39来自<a href="" class="msj">美食杰</a></span>
+                    <div class="date-dz-right pull-right comment-pl-block">
+                        <a href="javascript:;" class="removeBlock">删除</a>
+                        <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a>
+                        <span class="pull-left date-dz-line">|</span>
+                        <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a>
+                    </div>
+                </div>
+                <div class="hf-list-con"></div>
+            </div>
+
+             <div class="comment-show-con-img pull-left"><img src="../image3/f2.png" alt=""></div>
+            <div class="comment-show-con-list pull-left clearfix">
+                <div class="pl-text clearfix">
+                    <a href="#" class="comment-size-name">[随意吐槽]</a>
+                    <span class="my-pl-con">&nbsp;来啊 造作啊!</span>
+                </div>
+               
+                <div class="date-dz">
+                    <span class="date-dz-left pull-left comment-time">2017-5-2 11:11:39来自<a href="" class="msj">美食杰</a></span>
+                    <div class="date-dz-right pull-right comment-pl-block">
+                        <a href="javascript:;" class="removeBlock">删除</a>
+                        <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a>
+                        <span class="pull-left date-dz-line">|</span>
+                        <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a>
+                    </div>
+                </div>
+                <div class="hf-list-con"></div>
+            </div>
+
+             <div class="comment-show-con-img pull-left"><img src="../image3/f2.png" alt=""></div>
+            <div class="comment-show-con-list pull-left clearfix">
+                <div class="pl-text clearfix">
+                    <a href="#" class="comment-size-name">[随意吐槽]</a>
+                    <span class="my-pl-con">&nbsp;来啊 造作啊!</span>
+                </div>
+                <div class="date-dz">
+                    <span class="date-dz-left pull-left comment-time">2017-5-2 11:11:39来自<a href="" class="msj">美食杰</a></span>
+                    <div class="date-dz-right pull-right comment-pl-block">
+                        <a href="javascript:;" class="removeBlock">删除</a>
+                        <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a>
+                        <span class="pull-left date-dz-line">|</span>
+                        <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a>
+                    </div>
+                </div>
+                <div class="hf-list-con"></div>
+            </div>
+
+             <div class="comment-show-con-img pull-left"><img src="../image3/f2.png" alt=""></div>
+            <div class="comment-show-con-list pull-left clearfix">
+                <div class="pl-text clearfix">
+                    <a href="#" class="comment-size-name">[随意吐槽]</a>
+                    <span class="my-pl-con">&nbsp;来啊 造作啊!</span>
+                </div>
+                <div class="date-dz">
+                    <span class="date-dz-left pull-left comment-time">2017-5-2 11:11:39来自<a href="" class="msj">美食杰</a></span>
+                    <div class="date-dz-right pull-right comment-pl-block">
+                        <a href="javascript:;" class="removeBlock">删除</a>
+                        <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a>
+                        <span class="pull-left date-dz-line">|</span>
+                        <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a>
+                    </div>
+                </div>
+                <div class="hf-list-con"></div>
+            </div>
+
+             <div class="comment-show-con-img pull-left"><img src="../image3/f2.png" alt=""></div>
+            <div class="comment-show-con-list pull-left clearfix">
+                <div class="pl-text clearfix">
+                    <a href="#" class="comment-size-name">[随意吐槽]</a>
+                    <span class="my-pl-con">&nbsp;来啊 造作啊!</span>
+                </div>
+                <div class="date-dz">
+                    <span class="date-dz-left pull-left comment-time">2017-5-2 11:11:39来自<a href="" class="msj">美食杰</a></span>
+                    <div class="date-dz-right pull-right comment-pl-block">
+                        <a href="javascript:;" class="removeBlock">删除</a>
+                        <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a>
+                        <span class="pull-left date-dz-line">|</span>
+                        <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a>
+                    </div>
+                </div>
+                <div class="hf-list-con"></div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </form>
+
+    <script type="text/javascript">
+    $(function () {
+        $('.content').flexText();
+    });
+</script>
+<!--textarea限制字数-->
+<script type="text/javascript">
+    function keyUP(t){
+        var len = $(t).val().length;
+        if(len > 139){
+            $(t).val($(t).val().substring(0,140));
+        }
+    }
+</script>
+<!--点击评论创建评论条-->
+<script type="text/javascript">
+    $('.commentAll').on('click','.plBtn',function(){
+        var myDate = new Date();
+        //获取当前年
+        var year=myDate.getFullYear();
+        //获取当前月
+        var month=myDate.getMonth()+1;
+        //获取当前日
+        var date=myDate.getDate();
+        var h=myDate.getHours();      //获取当前小时数(0-23)
+        var m=myDate.getMinutes();     //获取当前分钟数(0-59)
+        if(m<10) m = '0' + m;
+        var s=myDate.getSeconds();
+        if(s<10) s = '0' + s;
+        var now=year+'-'+month+"-"+date+" "+h+':'+m+":"+s;
+        //获取输入内容
+        var oSize = $(this).siblings('.flex-text-wrap').find('.comment-input').val();
+        console.log(oSize);
+        //动态创建评论模块
+        oHtml = '<div class="comment-show-con clearfix"><div class="comment-show-con-img pull-left"><img src="../image3/f2.png" alt=""></div> <div class="comment-show-con-list pull-left clearfix"><div class="pl-text clearfix"> <a href="#" class="comment-size-name">[随意吐槽]</a> <span class="my-pl-con">&nbsp;'+ oSize +'</span> </div> <div class="date-dz"> <span class="date-dz-left pull-left comment-time">'+now+'</span> <div class="date-dz-right pull-right comment-pl-block"><a href="javascript:;" class="removeBlock">删除</a> <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a> <span class="pull-left date-dz-line">|</span> <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a> </div> </div><div class="hf-list-con"></div></div> </div>';
+        if(oSize.replace(/(^\s*)|(\s*$)/g, "") != ''){
+            $(this).parents('.reviewArea ').siblings('.comment-show').prepend(oHtml);
+            $(this).siblings('.flex-text-wrap').find('.comment-input').prop('value','').siblings('pre').find('span').text('');
+        }
+    });
+</script>
+<!--点击回复动态创建回复块-->
+<script type="text/javascript">
+    $('.comment-show').on('click','.pl-hf',function(){
+        //获取回复人的名字
+        var fhName = $(this).parents('.date-dz-right').parents('.date-dz').siblings('.pl-text').find('.comment-size-name').html();
+        //回复@
+        var fhN = '回复@'+fhName;
+        //var oInput = $(this).parents('.date-dz-right').parents('.date-dz').siblings('.hf-con');
+        var fhHtml = '<div class="hf-con pull-left"> <textarea class="content comment-input hf-input" placeholder="" onkeyup="keyUP(this)"></textarea> <a href="javascript:;" class="hf-pl">评论</a></div>';
+        //显示回复
+        if($(this).is('.hf-con-block')){
+            $(this).parents('.date-dz-right').parents('.date-dz').append(fhHtml);
+            $(this).removeClass('hf-con-block');
+            $('.content').flexText();
+            $(this).parents('.date-dz-right').siblings('.hf-con').find('.pre').css('padding','6px 15px');
+            //console.log($(this).parents('.date-dz-right').siblings('.hf-con').find('.pre'))
+            //input框自动聚焦
+            $(this).parents('.date-dz-right').siblings('.hf-con').find('.hf-input').val('').focus().val(fhN);
+        }else {
+            $(this).addClass('hf-con-block');
+            $(this).parents('.date-dz-right').siblings('.hf-con').remove();
+        }
+    });
+</script>
+<!--评论回复块创建-->
+<script type="text/javascript">
+    $('.comment-show').on('click','.hf-pl',function(){
+        var oThis = $(this);
+        var myDate = new Date();
+        //获取当前年
+        var year=myDate.getFullYear();
+        //获取当前月
+        var month=myDate.getMonth()+1;
+        //获取当前日
+        var date=myDate.getDate();
+        var h=myDate.getHours();       //获取当前小时数(0-23)
+        var m=myDate.getMinutes();     //获取当前分钟数(0-59)
+        if(m<10) m = '0' + m;
+        var s=myDate.getSeconds();
+        if(s<10) s = '0' + s;
+        var now=year+'-'+month+"-"+date+" "+h+':'+m+":"+s;
+        //获取输入内容
+        var oHfVal = $(this).siblings('.flex-text-wrap').find('.hf-input').val();
+        console.log(oHfVal)
+        var oHfName = $(this).parents('.hf-con').parents('.date-dz').siblings('.pl-text').find('.comment-size-name').html();
+        var oAllVal = '回复@'+oHfName;
+        if(oHfVal.replace(/^ +| +$/g,'') == '' || oHfVal == oAllVal){
+
+        }else {
+            $.getJSON("json/pl.json",function(data){
+                var oAt = '';
+                var oHf = '';
+                $.each(data,function(n,v){
+                    delete v.hfContent;
+                    delete v.atName;
+                    var arr;
+                    var ohfNameArr;
+                    if(oHfVal.indexOf("@") == -1){
+                        data['atName'] = '';
+                        data['hfContent'] = oHfVal;
+                    }else {
+                        arr = oHfVal.split(':');
+                        ohfNameArr = arr[0].split('@');
+                        data['hfContent'] = arr[1];
+                        data['atName'] = ohfNameArr[1];
+                    }
+
+                    if(data.atName == ''){
+                        oAt = data.hfContent;
+                    }else {
+                        oAt = '回复<a href="#" class="atName">@'+data.atName+'</a> : '+data.hfContent;
+                    }
+                    oHf = data.hfName;
+                });
+
+                var oHtml = '<div class="all-pl-con"><div class="pl-text hfpl-text clearfix"><a href="#" class="comment-size-name">我的名字 : </a><span class="my-pl-con">'+oAt+'</span></div><div class="date-dz"> <span class="date-dz-left pull-left comment-time">'+now+'</span> <div class="date-dz-right pull-right comment-pl-block"> <a href="javascript:;" class="removeBlock">删除</a> <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a> <span class="pull-left date-dz-line">|</span> <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a> </div> </div></div>';
+                oThis.parents('.hf-con').parents('.comment-show-con-list').find('.hf-list-con').css('display','block').prepend(oHtml) && oThis.parents('.hf-con').siblings('.date-dz-right').find('.pl-hf').addClass('hf-con-block') && oThis.parents('.hf-con').remove();
+            });
+        }
+    });
+</script>
+<!--删除评论块-->
+<script type="text/javascript">
+    $('.commentAll').on('click','.removeBlock',function(){
+        var oT = $(this).parents('.date-dz-right').parents('.date-dz').parents('.all-pl-con');
+        if(oT.siblings('.all-pl-con').length >= 1){
+            oT.remove();
+        }else {
+            $(this).parents('.date-dz-right').parents('.date-dz').parents('.all-pl-con').parents('.hf-list-con').css('display','none')
+            oT.remove();
+        }
+        $(this).parents('.date-dz-right').parents('.date-dz').parents('.comment-show-con-list').parents('.comment-show-con').remove();
+
+    })
+</script>
+<!--点赞-->
+<script type="text/javascript">
+    $('.comment-show').on('click','.date-dz-z',function(){
+        var zNum = $(this).find('.z-num').html();
+        if($(this).is('.date-dz-z-click')){
+            zNum--;
+            $(this).removeClass('date-dz-z-click red');
+            $(this).find('.z-num').html(zNum);
+            $(this).find('.date-dz-z-click-red').removeClass('red');
+        }else {
+            zNum++;
+            $(this).addClass('date-dz-z-click');
+            $(this).find('.z-num').html(zNum);
+            $(this).find('.date-dz-z-click-red').addClass('red');
+        }
+    })
+</script>
+<script>
+function fun(){
+	var obj =$("textarea");
+	// obj.attr("id","cc");
+	obj.text("[随意吐槽]：");
+	var obj1=$(".c1");
+	obj1.attr("id","d2");
+	var obj2=$(".c2");
+	obj2.attr("id","d1");
+	
+}
+function funn(){
+	var obj1=$("textarea");
+	// obj1.attr("id","d1");
+	obj1.text("[提问求解]：");
+	var obj1=$(".c1");
+	obj1.attr("id","d1");
+	var obj2=$(".c2");
+	obj2.attr("id","d2");
+}
+	var form = document.forms[0];//获取表单对象
+	var submitBtn = form.lastElementChild;//获取表单对象的最后一个子元素对象（提交按钮）
+		console.log(submitBtn);
+function submitInfo(){
+			var content = document.getElementById('content');
+			if(content.value.length == 0){
+				content.focus();
+			}else{
+				// 如果二者都不为空，则提交内容
+				alert.submit();
+			}
+		}
+</script>
+
+         </div>
+          <div id="section_six">
+		<h3>看过考前饮食三大忌，这些坑你不要踩的人还喜欢看...</h3>
+    </div>
+    <div id="photos">
+		<a href="饮小识.html"><img src="../image3/料.jpg" alt=""></a>
+		<a href="饮小识.html"><img src="../image3/料1.jpg" alt=""></a>
+		<a href="饮小识.html"><img src="../image3/料2.jpg" alt=""></a>
+		<a href="饮小识.html"><img src="../image3/料3.jpg" alt=""></a>
+		<div id="box1">
+			<div id="content1">
+				<div class="white1">
+					<h5>黄金吐司卷</h5>
+					<span class="gray1">16 评论 6602 人气</span>
+					<br>
+					<p class="red1">迷糊猫的白雪世界dl</p>
+				</div>
+				<div class="gray_one">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>	
+		</div>
+		<div id="box2">
+			<div id="content2">
+				<div class="white2">
+					<h5>敲虾豆皮汤</h5>
+					<span class="gray1">14 评论 7077 人气</span>
+					<br>
+					<p class="red1">孩妈@妮妮</p>
+				</div>
+				<div class="gray_two">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>	
+		<div id="box3">
+			<div id="content3">
+				<div class="white3">
+					<h5>红茶奶酥(上寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_three">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+		<div id="box4">
+			<div id="content4">
+				<div class="white4">
+					<h5>红茶奶酥(上寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_four">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="photos2">
+		<a href="饮小识.html"><img src="../image3/料4.jpg" alt=""></a>
+		<a href="饮小识.html"><img src="../image3/料5.jpg" alt=""></a>
+		<a href="饮小识.html"><img src="../image3/料6.jpg" alt=""></a>
+		<a href="饮小识.html"><img src="../image3/料7.jpg" alt=""></a>
+		<div id="box1">
+			<div id="content5">
+				<div class="white1">
+					<h5>黄金吐司卷</h5>
+					<span class="gray1">16 评论 6602 人气</span>
+					<br>
+					<p class="red1">迷糊猫的白雪世界dl</p>
+				</div>
+				<div class="gray_one">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>	
+		</div>
+		<div id="box2">
+			<div id="content6">
+				<div class="white2">
+					<h5>敲虾豆皮汤</h5>
+					<span class="gray1">14 评论 7077 人气</span>
+					<br>
+					<p class="red1">孩妈@妮妮</p>
+				</div>
+				<div class="gray_two">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>	
+		<div id="box3">
+			<div id="content7">
+				<div class="white3">
+					<h5>红茶奶酥(上寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_three">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+		<div id="box4">
+			<div id="content8">
+				<div class="white4">
+					<h5>红茶奶酥(上寨版麦山丘)</h5>
+					<span class="gray1">12 评论 5507 人气</span>
+					<br>
+					<p class="red1">机器烧爱铜锣猫</p>
+				</div>
+				<div class="gray_four">
+			   		<br>
+					<img src="../image3/mao.png" alt="">
+					<span>15步/大概15分钟</span>
+					<br><br>
+					<img src="../image3/fire.png" alt="">
+					<span>煎/果味</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+<div class="ddivv_1">
+	<footer>
+		<div id="footer">
+			<div class ="fd">
+				<img src="../image3/yjmstb.png" alt="">
+				<p><span>中国，最大的菜谱裤</span> <b>800,000篇</b></p>
+				<p><span>每月，用户访问数量</span> <b>20,000,000次</b></p>
+				<p><span>每年，菜谱被浏览量</span> <b>36,000,000,000次</b></p>
+				<span>现在，这些是数字还在不断的增长着，欢迎您一起使用美食节</span>
+			</div>
+			<div id="fd">
+				<div>
+					<a href=""><img src="../image3/wbewm.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节官方微博</a></span></p>
+				</div>
+				<div>
+					<a href=""><img src="../image3/kjewm.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节QQ空间</a></span></p>
+				</div>
+				<div>
+					<a href=""><img src="../image3/wxewm.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节微信好友</a></span></p>
+				</div>
+				<div>
+					<a href=""><img src="../image3/sjewm.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节手机客户端</a></span></p>
+				</div>
+			</div>
+			<h5>友情链接</h5>
+			<div class="hx"></div>
+			<table >
+				<tr>
+					<td ><a href="">美食</a></td>
+					<td ><a href="">体质测试</a></td>
+					<td ><a href="">伊特</a></td>
+					<td ><a href="">大粤网美食</a></td>
+					<td ><a href="">9酷音乐网</a></td>
+					<td ><a href="">123菜谱大全</a></td>
+					<td ><a href="">爱奇异生活</a></td>
+					<td ><a href="">365音乐网</a></td>
+					<td ><a href="">图吧</a></td>
+					<td ><a href="">汽车论坛</a></td>
+				</tr>
+				<tr>
+					<td ><a href="">39健康饮食</a></td>
+					<td ><a href="">QQ下载</a></td>
+					<td ><a href="">家居网</a></td>
+					<td ><a href="">搜狐美食</a></td>
+					<td ><a href="">美食天下</a></td>
+					<td ><a href="">特色菜网</a></td>
+					<td ><a href="">poco美食网</a></td>
+					<td ><a href="">中华美食网</a></td>
+					<td ><a href="">合肥公交网</a></td>
+					<td ><a href="">苹果园</a></td>
+				</tr>
+				<tr>
+					<td><a href="">红餐微杂志</a></td>
+					<td><a href="">北京搜房网</a></td>
+					<td><a href="">东莞赶集网</a></td>
+					<td><a href="">厨师网</a></td>
+					<td><a href="">更多友情链接</a></td>
+				</tr>
+			</table>
+			<div class="hx"></div>
+			<div id="zx">
+				<ul>
+					<li><a href="">公司简介</a></li>
+					<li><a href="">企业文化</a></li>
+					<li><a href="">公司动态</a></li>
+					<li><a href="">免责声明</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">招贤纳士</a></li>
+					<li><a href="">商务合作</a></li>
+					<li><a href="">网站地图</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">美食节移动APP</a></li>
+				</ul>
+				<p></p>
+			</div>
+		</div>
+	</footer> 
+</div>
+
+ <div class="div_8">
+    <div class = "bigTit">
+		<img src = "../image3/装.jpg" alt="" class = "bigPicture" id = "bigPicture">
+	</div>
+	<div class = "small">
+		
+		<img src = "../image3/装1.jpg" alt="" class = "smallPic" onmouseover = "fun1(this)">
+		<img src = "../image3/装2.jpg" alt="" class = "smallPic" onmouseover = "fun1(this)">
+		<img src = "../image3/装3.jpg" alt="" class = "smallPic" onmouseover = "fun1(this)">
+		<img src = "../image3/装4.jpg" alt="" class = "smallPic" onmouseover = "fun1(this)">
+		<img src = "../image3/装5.jpg" alt="" class = "smallPic" onmouseover = "fun1(this)">
+		<img src = "../image3/装6.jpg" alt="" class = "smallPic" onmouseover = "fun1(this)">
+		
+    </div>
+<script>
+	var bigPicture3 = document.getElementById('bigPicture');
+	function fun1(ele){
+		 //获取到所点击的图片的路径1
+		bigPicture3.setAttribute('src',ele.src);
+	}
+	var imgs3 = ["../image3/装.jpg","../image3/装1.jpg","../image3/装2.jpg","../image3/装3.jpg","../image3/装4.jpg","../image3/装5.jpg"];
+	var cont3 = 0;
+	var setImg3 = function fun1(ele){
+			bigPicture3.src1 = imgs3[cont3];
+			cont3 = ++cont3 == imgs3.length?0:cont3;
+		};
+		setImg3();
+	
+</script>
+  </div>
+    <div class="div_9">
+            <div class="div_10">
+              <img src="../image3/美食4.png" alt="">
+              <span class="div_11">美食杰</span>&nbsp;
+              <span class="div_12">80万精品菜谱</span>
+              <span class="div_13">4000万人的烹饪神器</span>
+            </div>
+          <div class="div_14">
+               <input type="button" value="IOS版下载" class="download">
+               <input type="button" value="安卓免费下载" class="download_1">
+          </div>
+          <div class="ipone">
+             <div class="background"></div>
+	      </div>
+	  <div>
+        <div class = "bigTit1">
+
+		   <img src = "../image3/饮小识a.jpg" alt="" class = "bigPicture1" id = "bigPicture1">
+	    </div>
+	<div class = "small1">
+		
+		<img src = "../image3/饮小识a.jpg" alt="" class = "smallPic1" onmouseover = "fun2(this)">
+		<img src = "../image3/饮小识c.jpg" alt="" class = "smallPic1" onmouseover = "fun2(this)">
+		<img src = "../image3/饮小识d.jpg" alt="" class = "smallPic1" onmouseover = "fun2(this)">
+		<img src = "../image3/饮小识e.jpg" alt="" class = "smallPic1" onmouseover = "fun2(this)">
+		<img src = "../image3/饮小识f.jpg" alt="" class = "smallPic1" onmouseover = "fun2(this)">
+		<img src = "../image3/饮小识g.jpg" alt="" class = "smallPic1" onmouseover = "fun2(this)">
+		
+	</div>
+<script>
+	var bigPicture1 = document.getElementById('bigPicture1');
+	function fun2(ele){
+		 //获取到所点击的图片的路径1
+		bigPicture1.setAttribute('src',ele.src);
+	}
+	var imgs1 = ["../image3/饮小识a.jpg","../image3/饮小识c.jpg","../image3/饮小识d.jpg","../image3/饮小识e.jpg","../image3/饮小识f.jpg","../image3/饮小识g.jpg"];
+	var cont1 = 0;
+	var setImg1 = function fun2(ele){
+			bigPicture1.src = imgs1[cont1];
+			cont1 = ++cont1 == imgs1.length?0:cont1;
+		};
+		setImg1();
+	
+</script>
+</div>
+      <div class="food_1">
+       <table>
+       	<tr>
+       		<td><a href="">
+                 <img src="../image3/食.jpg" alt="" width="143px" height="100px"> 
+                 <span class="food_2">重庆酸辣粉培训</span>
+       		</a></td>
+       		<td><a href="">
+                 <img src="../image3/食1.jpg" alt="" width="143px" height="100px">
+                 <span class="food_2">重庆酸辣粉</span>
+       		</a></td>
+       	</tr>
+       	<tr>
+       		<td><a href="">
+                 <img src="../image3/食2.jpg" alt="" width="143px" height="100px">
+                 <span class="food_2">整体家居装修</span>
+       		</a></td>
+       		<td><a href="">
+                 <img src="../image3/食3.jpg" alt="" width="143px" height="100px">
+                 <span class="food_2">成都串串香培训</span>
+                
+       		</a></td>
+       	</tr>
+       	<tr>
+       		<td><a href="">
+                 <img src="../image3/食4.jpg" alt="" width="143px" height="100px">
+                 <span class="food_2">学酸辣粉</span>
+                 
+       		</a></td>
+       		<td><a href="">
+                 <img src="../image3/食5.jpg" alt="" width="143px" height="100px">
+                 <span class="food_2">瘦身配方</span>
+                 
+       		</a></td>
+       	</tr>
+       	<tr>
+       		<td><a href="">
+                 <img src="../image3/食6.jpg" alt="" width="143px" height="100px">
+                 <span class="food_2">一天一斤减肥法</span>
+                 
+       		</a></td>
+       		<td><a href="">
+                 <img src="../image3/食7.jpg" alt="" width="143px" height="100px">
+                 <span class="food_2">正宗重庆小面</span>
+                 <span></span>
+       		</a></td>
+       	</tr>
+       </table>
+    </div>
+
+<div>
+   <div class = "bigTit2">
+		<img src = "../image3/饮小识a.jpg" alt="" class = "bigPicture2" id = "bigPicture2">
+  </div>
+	<div class = "small2">
+		
+		<img src = "../image3/饮小识a.jpg" alt="" class = "smallPic2" onmouseover = "fun3(this)">
+		<img src = "../image3/饮小识c.jpg" alt="" class = "smallPic2" onmouseover = "fun3(this)">
+		<img src = "../image3/饮小识d.jpg" alt="" class = "smallPic2" onmouseover = "fun3(this)">
+		<img src = "../image3/饮小识e.jpg" alt="" class = "smallPic2" onmouseover = "fun3(this)">
+		<img src = "../image3/饮小识f.jpg" alt="" class = "smallPic2" onmouseover = "fun3(this)">
+		<img src = "../image3/饮小识g.jpg" alt="" class = "smallPic2" onmouseover = "fun3(this)">
+		
+	</div>
+<script>
+	var bigPicture2 = document.getElementById('bigPicture2');
+	function fun3(ele){
+		 //获取到所点击的图片的路径1
+		bigPicture2.setAttribute('src',ele.src);
+	}
+	var imgs2 = ["../image3/饮小识a.jpg","../image3/饮小识c.jpg","../image3/饮小识d.jpg","../image3/饮小识e.jpg","../image3/饮小识f.jpg","../image3/饮小识g.jpg"];
+	var cont2 = 0;
+	var setImg2 = function fun3(ele){
+			bigPicture2.src = imgs2[cont2];
+			cont2 = ++cont2 == imgs2.length?0:cont2;
+		};
+		setImg2();
+  </script>
+</div>
+<div>
+   <div class = "bigTit3">
+		<img src = "../image3/掏.jpg" alt="" class = "bigPicture3" id = "bigPicture3">
+   </div>
+	<div class = "small3">
+		
+		<img src = "../image3/掏1.jpg" alt="" class = "smallPic3" onmouseover = "fun4(this)">
+		<img src = "../image3/掏2.jpg" alt="" class = "smallPic3" onmouseover = "fun4(this)">
+		<img src = "../image3/掏3.jpg" alt="" class = "smallPic3" onmouseover = "fun4(this)">
+		<img src = "../image3/掏4.jpg" alt="" class = "smallPic3" onmouseover = "fun4(this)">
+		<img src = "../image3/掏5.jpg" alt="" class = "smallPic3" onmouseover = "fun4(this)">
+		<img src = "../image3/掏6.jpg" alt="" class = "smallPic3" onmouseover = "fun4(this)">
+		
+	</div>
+<script>
+	var bigPicture = document.getElementById('bigPicture3');
+	function fun4(ele){
+		 //获取到所点击的图片的路径1
+		bigPicture.setAttribute('src',ele.src);
+	}
+	var imgs = ["../image3/掏.jpg","../image3/掏1.jpg","../image3/掏2.jpg","../image3/掏3.jpg","../image3/掏4.jpg","../image3/掏5.jpg"];
+	var cont = 0;
+	var setImg = function fun4(ele){
+			bigPicture.src = imgs[cont];
+			cont = ++cont == imgs.length?0:cont;
+		};
+		setImg();
+  </script>
+</div>
+  
+<script src="../js/饮小识.js"></script>
+</body>
+</html>

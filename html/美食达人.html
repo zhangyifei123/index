@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale = 1">
+	<link rel="stylesheet" type="text/css" href="../css/美食达人.css">
+	<link rel="stylesheet" href="../css/ym.css">
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	
+
+	<link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/bannerList.css">
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <script src = "../js/jquery-3.1.1.min.js"></script>
+    <script src = "../bootstrap/js/bootstrap.min.js"></script>
+
+    
+</head>
+<body>
+<div id="zt">
+<!-- <a href="#"><img src="../images21/fanhui.png" alt="" id = 'fanhuishouye' ></a> -->
+	<header>
+		<div id="ymdh">
+			<img src="../images21/ymmstb.png" alt="" id="ms" class="img-responsive">
+			<input type="text" id="ymss" placeholder="请输入菜谱/食材/菜单/作者">
+			<input type="button" value="搜索" id="hjd">
+			<ul id="ymqq">
+				<li><a href="https://graph.qq.com/oauth/show?which=Login&display=pc&response_type=code&client_id=100233147&redirect_uri=http://i.meishi.cc/connect/callback.php?site=qq&state=9ad4331d59f6caf56e89bbf111f1a1b3&scope=get_user_info,add_share,list_album,add_album,upload_pic,add_topic,add_one_blog,add_weibo,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idolist,add_idol,del_idol,get_tenpay_addr"><img src="../images21/ymqq.png" alt="">QQ登录</a></li>
+				<li><a href="https://api.weibo.com/oauth2/authorize?client_id=3274300248&redirect_uri=http%3A%2F%2Fi.meishi.cc%2Fconnect%2Fcallback.php%3Fsite%3Dsina&response_type=code"><img src="../images21/ymwb.png" alt="">微博登录</a></li>
+				<li><a href="注册.html">注册</a></li>
+				<li><a href="登录.html">登录</a></li>
+			</ul>
+		</div>
+		<div id="nav">
+			<ul id="dh1">
+				<li><a href="首页.html">首页</a></li>
+				<li id="fx"><a href="菜谱大全.html">菜谱大全<img src="../images21/ymxljt.gif" alt=""></a></li>
+				<li id="fx1"><a href="饮食健康.html">饮食健康<img src="../images21/ymxljt.gif" alt=""></a></li>
+				<li><a href="美食菜单.html">美食菜单</a></li>
+				<li><a href="家具馆.html">家具馆</a></li>
+				<li><a href="美食达人.html">美食达人<img src="../images21/ymhg.png" alt="" id="hg"></a></li>
+				<li><a href="讨论组.html">讨论组</a></li>
+				<li><a href="手机版下载.html">手机版下载</a></li>
+			</ul>
+		</div>
+		<div id="cpdq">
+			<div class="xb">家常菜普</div>
+			<span><a href="饮食小常识.html">家常菜</a></span><span><a href="饮食小常识.html">凉菜</a></span><span><a href="饮食小常识.html">素食</a></span><span><a href="饮食小常识.html">晚餐</a></span><span><a href="饮食小常识.html">私家菜</a></span><span><a href="饮食小常识.html">热菜</a></span><span><a href="饮食小常识.html">海鲜</a></span><span><a href="饮食小常识.html">孕妇</a></span><span><a href="饮食小常识.html">早餐</a></span><span><a href="饮食小常识.html">午餐</a></span><span><a href="饮食小常识.html">甜品点心</a></span><span><a href="饮食小常识.html">汤粥</a></span><span><a href="饮食小常识.html">宝宝食谱婴儿食品</a></span><span><a href="饮食小常识.html">糕点主食</a></span><span><a href="饮食小常识.html">微波炉</a></span>
+			<div class="dis">
+				<div class="xb">中华菜系</div>
+				<span><a href="饮食小常识.html">川菜</a></span><span><a href="饮食小常识.html">粤菜</a></span><span><a href="饮食小常识.html">东北菜</a></span><span><a href="饮食小常识.html">湘菜</a></span><span><a href="饮食小常识.html">鲁菜</a></span><span><a href="饮食小常识.html">浙菜</a></span><span><a href="饮食小常识.html">湖北菜</a></span><span><a href="饮食小常识.html">清蒸菜</a></span>
+			</div>
+			<div class="dis">
+				<div class="xb">各地小吃</div>
+				<span><a href="饮食小常识.html">四川小吃</a></span><span><a href="饮食小常识.html">广东小吃</a></span><span><a href="饮食小常识.html">北京小吃</a></span><span><a href="饮食小常识.html">陕西小吃</a></span>
+			</div>
+			<br>
+			<div class="dis">
+				<div class="xb">外国菜谱</div>
+				<span><a href="饮食小常识.html">韩国料理</a></span><span><a href="饮食小常识.html">日本料理</a></span><span><a href="饮食小常识.html">法国菜</a></span><span><a href="饮食小常识.html">意大利餐</a></span>
+			</div>
+			<div class="dis">
+				<div class="xb">烘培</div>
+				<span><a href="饮食小常识.html">蛋糕面包</a></span><span><a href="饮食小常识.html">饼干配方</a></span><span><a href="饮食小常识.html">甜品点心</a></span>
+			</div>
+			<br>
+			<div class="dis">
+				<div class="xb">厨房百料</div>
+				<span><a href="饮食小常识.html">摆盘围边</a></span><span><a href="饮食小常识.html">烹饪技巧</a></span><span><a href="饮食小常识.html">生活妙招</a></span><span><a href="饮食小常识.html">美食专题</a></span>
+			</div>
+			<div class="dis">
+				<div class="xb">食材百料</div>
+				<span><a href="饮食小常识.html">蔬菜</a></span><span><a href="饮食小常识.html">水果</a></span><span><a href="饮食小常识.html">谷类</a></span>
+			</div>
+			<img src="../images21/ymspdq.png" alt="">
+		</div>
+		<div id="cpdq1">
+			<div class="xb">饮食健康</div>
+			<span><a href="清热去火.html">饮食小常识</a></span><span><a href="清热去火.html">美容瘦身</a></span><span><a href="清热去火.html">食品安全</a></span><span><a href="清热去火.html">养生妙方</a></span><span><a href="清热去火.html">饮食禁忌</a></span><span><a href="清热去火.html">中医保健</a></span><span><a href="清热去火.html">母婴健康饮食</a></span><span><a href="清热去火.html">饮食新闻</a></span>
+			<br>
+			<div class="dis">
+				<div class="xb">功能性调理</div>
+				<span><a href="清热去火.html">清热去火</a></span><span><a href="清热去火.html">减肥</a></span><span><a href="清热去火.html">祛痰</a></span><span><a href="清热去火.html">乌发</a></span><span><a href="清热去火.html">滋阴补肾</a></span><span><a href="清热去火.html">健脾开胃</a></span><span><a href="清热去火.html">消化不良</a></span><span><a href="清热去火.html">壮阳补阳</a></span><span><a href="清热去火.html">清热解毒</a></span><span><a href="清热去火.html">增肥</a></span>
+			</div>
+			<br>
+			<div class="dis">
+				<div class="xb">人群膳食</div>
+				<span><a href="清热去火.html">孕妇</a></span><span><a href="清热去火.html">老人</a></span><span><a href="清热去火.html">产妇</a></span><span><a href="清热去火.html">哺乳期</a></span><span><a href="清热去火.html">青少年</a></span><span><a href="清热去火.html">幼儿</a></span><span><a href="清热去火.html">学龄期儿童</a></span>
+			</div>
+			<div class="dis">
+				<div class="xb">疾病调理</div>
+				<span><a href="清热去火.html">糖尿病</a></span><span><a href="清热去火.html">高血压</a></span><span><a href="清热去火.html">痛风</a></span><span><a href="清热去火.html">胃炎</a></span><span><a href="清热去火.html">痔疮</a></span><span><a href="清热去火.html">更年期</a></span><span><a href="清热去火.html">甲状腺</a></span>
+			</div>
+			<br>
+			<div class="dis">
+				<div class="xb">脏腑调理</div>
+				<span><a href="清热去火.html">感冒</a></span><span><a href="清热去火.html">补肾</a></span><span><a href="清热去火.html">阳痿早泄</a></span><span><a href="清热去火.html">不懈</a></span><span><a href="清热去火.html">便秘</a></span><span><a href="清热去火.html">腹泻</a></span><span><a href="清热去火.html">活血化瘀</a></span>
+			</div>
+			<img src="../images21/ymysjk.png" alt="">
+		</div>
+	</header>
+</div>
+<script src="../js/页眉.js"></script>		
+<div class="banner">
+        <ul class="">
+            <li><a href="凤梨酥子网页.html" target="_black"><img src="../images21/banner1.jpg" alt=""></a></li>
+            <li><a href="凤梨酥子网页.html"  target="_black"><img src="../images21/banner2.jpg" alt=""></a></li>
+            <li><a href="凤梨酥子网页.html"  target="_black"><img src="../images21/banner3.jpg" alt=""></a></li>
+           <!--  <li><a href=""><img src="img/banner4.jpg" alt=""></a></li> -->
+        </ul>
+
+        <div class="left-btn"><img src="../images21/left-1.png" alt=""></div>
+        <div class="right-btn"><img src="../images21/right-1.png" alt=""></div>
+        <div class="img-btn-list"></div>
+    </div>
+    <div id="img_1">
+        <div id="suspension">
+      		  <a href="达人榜单.html">
+         		   <div  class="suspension_1" >
+            	    <img src="../images21/t9145691_148068310846503.jpg" alt="" class="img-circle"> <span  class="span">中式菜</span>
+            </div>
+            </a>
+            <a href="达人榜单.html">
+          		 <div class="suspension_2"> 
+              	  <img src="../images21/t9198668_148954829475356.jpg" alt="" class="img-circle">  <span  class="span">西式菜</span>
+           	 </div>
+            </a>
+            <a href="达人榜单.html">
+          			 <div class="suspension_3" > 
+           			   <img src="../images21/t4073322_148654955934631.jpg" alt="" class="img-circle">  <span  class="span">烘焙儿</span>
+              		</div>
+             </a>
+              <a href="达人榜单.html">
+          			 <div class="suspension_4"> 
+            		  <img src="../images21/t4321403_143366767668352.jpg" alt="" class="img-circle"> <span  class="span">素食儿</span>
+             		 </div>
+             </a>
+              <a href="达人榜单.html">
+           			<div class="suspension_5"> 
+            		  <img src="../images21/t2789169_40505.jpg" alt="" class="img-circle"> <span  class="span">轻食儿</span>
+            		  </div>
+            </a>
+              <a href="达人榜单.html">
+           				<div class="suspension_6"> 
+            			  <img src="../images21/t9940362_149525435609691.jpg" alt="" class="img-circle"> <span class="span" >一人食</span>
+             			</div>
+             	</a>
+              <a href="达人榜单.html">
+          			 <div class="suspension_7">
+           			   <img src="../images21/t9522369_148669232000156.jpg" alt="" class="img-circle"> <span  class="span">孕婴儿</span>
+             			 </div>
+              </a>
+              <a href="达人榜单.html">
+          		  <div class="suspension_8">
+             		  <img src="../images21/t9510087_148646333095208.jpg" alt="" class="img-circle"> <span class="span" >养生记</span>
+              		 </div>
+              </a>
+               <a href="达人榜单.html">
+          			 <div class="suspension_9"> 
+          			    <img src="../images21/t9198668_148954829475356.jpg" alt="" class="img-circle"> <span  class="span">技巧儿</span>
+              		</div>
+              </a>
+              <a href="达人榜单.html">
+         		  <div class="suspension_10"> 
+            		  <img src="../images21/t9087269_147988085535438.jpg" alt="" class="img-circle"> <span  class="span">品味家</span>
+             	 </div>
+             </a>
+              <a href="达人榜单.html">
+           			<div class="suspension_11"> 
+            		 <img src="../images21/t2789169_40505.jpg" alt="" class="img-circle"> <span  class="span">营养师</span>
+            </a>
+        </div>
+        </div>
+    </div>
+
+   
+    <script src="../js/bannerList.js"></script>
+    <script>
+        /*=======================
+调用方法：
+ 传递参数方法如下：
+ 对象1：banner最大容器====================必填
+ 对象2：banner======>按钮父容器============必填
+ 对象3，4：banner====>左右按钮对象名===========必填
+ 对象5：banner滚动时间==================>可选项=======>默认为2000
+ 对象6：是否需要自动轮播需要==========true============不需要false:必填
+=============================*/
+
+
+bannerListFn(
+    $(".banner"),
+    $(".img-btn-list"),
+    $(".left-btn"),
+    $(".right-btn"),
+    2000,
+    true
+);
+    </script> 
+
+
+ <h1 class="body">内容精选</h1>
+ <div class="phos"><a href="内容精选子网页.html">
+	<div class="pho"><img src="../images21/c480d7cf0509bbd8612ba439665a49c2.jpeg" alt="">
+		<div class="wrd"><b>浓郁巧克力蛋糕</b></a><br>988浏览 · 6评论 · 464赞<a href="达人榜单.html"><br>雪儿</a></div>
+	</div>
+	<div class="pho"><a href="内容精选子网页.html">
+		<img src="../images21/30b864f5ea0ecad6b4f5322cc2eb8742.jpeg" alt="">
+			<div class="wrd"><b>浓郁巧克力蛋糕</b></a><br>988浏览 · 6评论 · 464赞<a href="达人榜单.html"><br>雪儿</a></div>
+		</div>
+	<div class="pho"><a href="内容精选子网页.html">
+		<img src="../images21/9fa18b91f8babc03941250d5f4f8e044.jpeg" alt="">
+
+			<div class="wrd"><b>浓郁巧克力蛋糕</b></a><br>988浏览 · 6评论 · 464赞<a href="达人榜单.html"><br>雪儿</a></div>
+	</div>
+	<div class="pho"><a href="内容精选子网页.html">
+		<img src="../images21/30b864f5ea0ecad6b4f5322cc2eb8742.jpeg" alt="">
+
+		<div class="wrd"><b>浓郁巧克力蛋糕</b></a><br>988浏览 · 6评论 · 464赞<a href="达人榜单.html"><br>雪儿</a></div>
+	</div>
+	<div class="pho"><a href="内容精选子网页.html">
+		<img src="../images21/9fa18b91f8babc03941250d5f4f8e044.jpeg" alt="">
+
+		<div class="wrd"><b>浓郁巧克力蛋糕</b></a><br>988浏览 · 6评论 · 464赞<a href="达人榜单.html"><br>雪儿</a></div>
+	</div>
+	<div class="pho"><a href="内容精选子网页.html">
+		<img src="../images21/c480d7cf0509bbd8612ba439665a49c2.jpeg" alt="">
+
+		<div class="wrd"><b>浓郁巧克力蛋糕</b></a><br>988浏览 · 6评论 · 464赞<a href="达人榜单.html"><br>雪儿</a></div>
+	</div>
+</div>
+<!-- 修改 -->
+	<div style="width:990px;margin:auto; ">
+		<div style="display: inline-block;height: 263px;width: 467px;overflow: hidden;}" >
+			<img src="../images21/dad67d12083a80f6a0f7f0edd6090566.jpeg" alt="" width="467px" height="263px;" class="xiugai">
+
+
+		</div>
+		<div style="display: inline-block;height: 263px;width: 467px;margin-left: 20px;overflow: hidden;">
+			<img src="../images21/20170609104913_650.jpg" alt="" width="467px" height="263px;" class="xiugai">
+
+
+		</div>
+	</div>
+	<!-- 小图片 -->
+	<div style="width: 990px;margin-left: 455px;">
+		<div style="display: inline-block;overflow: hidden;margin-right: 20px;" >
+			<img src="../images21/20170531113735_540.jpg" alt="" width="135px" height="85px;" class ="xiugaixiao">
+		</div>
+		<div style="display: inline-block;overflow: hidden;margin-right: 20px">
+			<img src="../images21/20170531113735_540.jpg" alt="" width="135px" height="85px;" class="xiugaixiao">
+		</div>
+		<div style="display: inline-block;overflow: hidden">
+			<img src="../images21/20170531113735_540.jpg" alt="" width="135px" height="85px;" class="xiugaixiao">
+		</div>
+		
+		<div style="display: inline-block;overflow: hidden;margin-left:55px;margin-right: 20px;margin-left: 35px;">
+			<img src="../images21/20170531113735_540.jpg" alt="" width="135px" height="85px;" class="xiugaixiao">
+		</div>
+		<div style="display: inline-block;overflow: hidden;margin-right: 20px;">
+			<img src="../images21/20170531113735_540.jpg" alt="" width="135px" height="85px;" class="xiugaixiao">
+		</div>
+		<div style="display: inline-block;overflow: hidden">
+			<img src="../images21/20170531113735_540.jpg" alt="" width="135px" height="85px;" class="xiugaixiao">
+		</div>
+	
+</div>
+	
+
+
+
+<!-- 结束修改 -->
+<div class="talent_list" style="color: black"><h1>达人榜单</h1> </div>
+<div class="new_talent" style="color: black"><b>新晋达人</b><br><br><br><br>
+	<div class="pho_yuan">
+		<img src="../images21/t2789169_40505.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html" >菜来道</a><br>
+		<span>分享中国传统美食教程 入驻美食</span>
+	</div>
+	<div class="pho_yuan">
+		<img src="../images21/t9940362_149525435609691.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html">菜来道</a><br>
+		<span>分享中国传统美食教程 入驻美食</span>
+	</div>
+	<div class="pho_yuan">
+		<img src="../images21/t9087269_147988085535438.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html">菜来道</a><br>
+		<span>分享中国传统美食教程  <span class="badge" style="background-color: pink;color:white;width: 60px;height: 25px;">中式菜</span></span>
+	</div>
+	<div class="pho_yuan">
+		<img src="../images21/t9940362_149525435609691.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html">菜来道</a><br>
+		<span>分享中国传统美食教程  <span class="badge" style="background-color: orange;color:white;width: 60px;height: 25px;">川香菜</span></span></span>
+	</div>
+	<div class="pho_yuan">
+		<img src="../images21/t9087269_147988085535438.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html">菜来道</a><br>
+		<span>分享中国传统美食教程  <span class="badge" style="background-color: pink;color:white;width: 60px;height: 25px;">中式菜</span></span></span>
+	</div>
+
+	
+
+
+</div>
+<div class="top_talent" style="color: black"><b>热门达人</b><br>
+<br>
+<br>
+<br>
+	<div class="pho_yuan">
+		<img src="../images21/t9087269_147988085535438.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html">菜来道</a><br>
+		<span>分享中国传统美食教程 入驻美食</span><input type="button" value="关注" class="btn btn-danger" >
+	</div>
+	<div class="pho_yuan">
+		<img src="../images21/t9940362_149525435609691.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html">菜来道</a><br>
+		<span>分享中国传统美食教程 入驻美食 </span>
+		<input type="button" value="关注" class="btn btn-danger" >
+	</div>
+	<div class="pho_yuan">
+		<img src="../images21/t9087269_147988085535438.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html">菜来道</a><br>
+		<span>分享中国传统美食教程 入驻美食</span>
+		<input type="button" value="关注" class="btn btn-danger" >
+	</div>
+	<div class="pho_yuan">
+		<img src="../images21/t9940362_149525435609691.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html">菜来道</a><br>
+		<span>分享中国传统美食教程 入驻美食</span>
+		<input type="button" value="关注" class="btn btn-danger" >
+	</div>
+	<div class="pho_yuan">
+		<img src="../images21/t9087269_147988085535438.jpg" alt=""  class="img-circle">
+	</div>
+	<div class="pho_yuan">
+		<a href="达人榜单.html">菜来道</a><br>
+		<span>分享中国传统美食教程 入驻美食</span>
+		<input type="button" value="关注" class="btn btn-danger" >
+	</div><br>
+
+
+
+</div>
+<div class="right1_pho">
+	<img src="../images21/20160824100248_224.png" alt="">
+	<div id="zi">成为达人即可享受不一样的特权专属标识、优先推荐、更高的积分体系、更多的家居馆折扣…想要施展才华、展现魅力的你，快来申请成为美食达人吧~
+		
+	</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="申请达人" class="btn btn-danger" style="width: 90px;">
+	
+</div>
+
+<div class="talent_task" style="color: black"><h1>达人任务</h1></div>
+<div class="Talent_task1">
+	<div class="float1">
+		<img src="../images21/20170504145916_549.png" alt="" class="tupian1">
+	</div>
+	<div class="float2">
+		<span class="badge" style="background-color: rgb(57,196,93);">中式菜</span>
+		<span class="font_size"><a href="达人任务.html">霸王超市 |"薯"</a></span><br>
+		<span><b>一级任务</b> | 浏览：107 | 申请名额：60 | 申请人数：24 | 截止时间：06月08日 12:00</span>
+	</div>
+	<div class="jiangbei"><img src="../images21/1.png" alt="">奖励:+鲜鱿鱼+菜谱积分</div>
+	<div class="button1">
+		<input type="button" class="btn btn-danger" value="领取任务">
+	</div>
+	<br><br>
+	
+	<div class="Talent_task1">
+	<div class="float1">
+		<img src="../images21/7915f6e86a23d5f65c623b288bda0eb9.jpeg" alt="" class="tupian1">
+	</div>
+	<div class="float2">
+		<span class="badge" style="background-color: rgb(57,196,93);">中式菜</span>
+		<span class="font_size"><a href="达人任务.html">霸王超市 |野生美味鲜活鱿鱼</a></span><br>
+		<span><b>一级任务</b> | 浏览：107 | 申请名额：60 | 申请人数：24 | 截止时间：06月08日 12:00</span>
+	</div>
+	<div class="jiangbei"><img src="../images21/1.png" alt="">奖励:+鲜鱿鱼+菜谱积分</div>
+	<div class="button1">
+		<input type="button" class="btn btn-danger" value="领取任务" disabled style="background-color: gray">
+	</div>
+
+	<br><br>
+	<div class="Talent_task1">
+	<div class="float1">
+		<img src="../images21/20170504145916_549.png" alt="" class="tupian1">
+	</div>
+	<div class="float2">
+		<span class="badge" style="background-color: rgb(57,196,93);">中式菜</span>
+		<span class="font_size"><a href="达人任务.html">霸王超市 |野生美味鲜活鱿鱼</a></span><br>
+		<span><b>一级任务</b> | 浏览：107 | 申请名额：60 | 申请人数：24 | 截止时间：06月08日 12:00</span>
+	</div>
+	<div class="jiangbei"><img src="../images21/1.png" alt="">奖励:+鲜鱿鱼+菜谱积分</div>
+	<div class="button1">
+		<input type="button" class="btn btn-danger" value="领取任务">
+	</div>
+
+	<br><br>
+	<div class="Talent_task1">
+	<div class="float1">
+		<img src="../images21/7915f6e86a23d5f65c623b288bda0eb9.jpeg" alt="" class="tupian1">
+	</div>
+	<div class="float2">
+		<span class="badge" style="background-color: rgb(57,196,93);">中式菜</span>
+		<span class="font_size"><a href="达人任务.html">霸王超市 |野生美味鲜活鱿鱼</a></span><br>
+		<span><b>一级任务</b> | 浏览：107 | 申请名额：60 | 申请人数：24 | 截止时间：06月08日 12:00</span>
+	</div>
+	<div class="jiangbei"><img src="../images21/1.png" alt="">奖励:+鲜鱿鱼+菜谱积分</div>
+	<div class="button1">
+		<input type="button" class="btn btn-danger" value="领取任务" disabled style="background-color: gray">
+	</div>
+
+	<br><br>
+	<div class="Talent_task1">
+	<div class="float1">
+		<img src="../images21/20170504145916_549.png" alt="" class="tupian1">
+	</div>
+	<div class="float2">
+		<span class="badge" style="background-color: rgb(57,196,93);">中式菜</span>
+		<span class="font_size"><a href="达人任务.html">霸王超市 |野生美味鲜活鱿鱼</a></span><br>
+		<span><b>一级任务</b> | 浏览：107 | 申请名额：60 | 申请人数：24 | 截止时间：06月08日 12:00</span>
+	</div>
+	<div class="jiangbei"><img src="../images21/1.png" alt="">奖励:+鲜鱿鱼+菜谱积分</div>
+	<div class="button1">
+		<input type="button" class="btn btn-danger" value="领取任务">
+	</div>
+
+	<br><br>
+	<div class="Talent_task1">
+		<div class="float1">
+			<img src="../images21/7915f6e86a23d5f65c623b288bda0eb9.jpeg" alt="" class="tupian1">
+		</div>
+		<div class="float2">
+			<span class="badge" style="background-color: rgb(57,196,93);">中式菜</span>
+			<span class="font_size"><a href="">霸王超市 |野生美味鲜活鱿鱼</a></span><br>
+			<span><b>一级任务</b> | 浏览：107 | 申请名额：60 | 申请人数：24 | 截止时间：06月08日 12:00</span>
+		</div>
+		<div class="jiangbei">
+			<img src="../images21/1.png" alt="">奖励:+鲜鱿鱼+菜谱积分
+		</div>
+		<div class="button1">
+			<input type="button" class="btn btn-danger" value="领取任务">
+		</div>
+</div>
+
+<div class="more_task"><a href="达人任务.html">查看更多任务>></a></div>
+<div class="premium1"><h1>优质内容</h1></div>
+<div class="premium2" >
+	<div ><a href="内容精选子网页.html">
+		<img src="../images21/20170524143317_109.jpg" alt=""></a> <br>
+		<span class="content1">
+			<a href="达人榜单.html">一人食也精彩-绿豆草莓粥<br>
+			1浏览 · 0评论 · 0赞<br>
+			林冰儿</a>
+		</span>
+	</div>
+	<div>
+	<a href="内容精选子网页.html">
+		<img src="../images21/20170601103940_199.jpg" alt=""></a><br>
+		<span class="content1">
+			<a href="达人榜单.html">一人食也精彩-绿豆草莓粥<br>
+			1浏览 · 0评论 · 0赞<br>
+			林冰儿 </a>
+		</span>
+	</div>
+	<div>
+	<a href="内容精选子网页.html">
+		<img src="../images21/20170601115134_441.png" alt=""></a> <br>
+		<span class="content1">
+			<a href="达人榜单.html">一人食也精彩-绿豆草莓粥<br>
+			1浏览 · 0评论 · 0赞<br>
+			林冰儿</a>
+		</span>
+	</div>
+</div>
+
+<div class="premium2" >
+	<div >
+	<a href="内容精选子网页.html">
+		<img src="../images21/20170524143317_109.jpg" alt=""></a> <br>
+		<span class="content1">
+			<a href="达人榜单.html">一人食也精彩-绿豆草莓粥<br>
+			1浏览 · 0评论 · 0赞<br>
+			林冰儿</a>
+		</span>
+	</div>
+	<div>
+	<a href="内容精选子网页.html">
+		<img src="../images21/20170601103940_199.jpg" alt=""></a> <br>
+		<span class="content1">
+			<a href="达人榜单.html">一人食也精彩-绿豆草莓粥<br>
+			1浏览 · 0评论 · 0赞<br>
+			林冰儿</a>
+		<spanv>
+	</div>
+	<div>
+	<a href="内容精选子网页.html">
+		<img src="../images21/20170601115134_441.png" alt=""></a> <br>
+		<span class="content1">
+			<a href="达人榜单.html">一人食也精彩-绿豆草莓粥<br>
+			1浏览 · 0评论 · 0赞<br>
+			林冰儿</a>
+		</span>
+	</div>
+</div>
+
+<div class="premium2" >
+	<div >
+	<a href="内容精选子网页.html">
+		<img src="../images21/20170524143317_109.jpg" alt=""></a> <br>
+		<span class="content1">
+			<a href="">一人食也精彩-绿豆草莓粥<br>
+			1浏览 · 0评论 · 0赞<br>
+			林冰儿</a>
+		</span>
+	</div>
+	<div>
+	<a href="内容精选子网页.html">
+		<img src="../images21/20170601103940_199.jpg" alt=""></a><br>
+		<span class="content1">
+			<a href="">一人食也精彩-绿豆草莓粥<br>
+			1浏览 · 0评论 · 0赞<br>
+			林冰儿 </a>
+		</span>
+	</div>
+	<div>
+	<a href="内容精选子网页.html">
+		<img src="../images21/20170601115134_441.png" alt=""></a> <br>
+		<span class="content1">
+			<a href="">一人食也精彩-绿豆草莓粥<br>
+			1浏览 · 0评论 · 0赞<br>
+			林冰儿</a>
+		</span>
+	</div>
+</div>
+<footer>
+		<div id="footer">
+			<div class ="fd">
+				<img src="../images21/yjmstb.png" alt="">
+				<p><span>中国，最大的菜谱裤</span> <b style="color: red">800,000篇</b></p>
+				<p><span>每月，用户访问数量</span> <b style="color: red">20,000,000次</b></p>
+				<p><span>每年，菜谱被浏览量</span> <b style="color: red">36,000,000,000次</b></p>
+				<span>现在，这些是数字还在不断的增长着，欢迎您一起使用美食节</span>
+			</div>
+			<div id="fd">
+				<div>
+					<a href="http://weibo.com/meishij" target = "_black"><img src="../images21/weibo.png" alt="" ></a>
+					<p><span><a href="">点击进入<br>美食节官方微博</a></span></p>
+				</div>
+				<div>
+					<a href="https://user.qzone.qq.com/613171717"  target = "_black"><img src="../images21/空间.png" alt="" ></a>
+					<p><span><a href="">点击进入<br>美食节QQ空间</a></span></p>
+				</div>
+				<div>
+					<a href="手机版下载.html"  target = "_black"><img src="../images21/erweima.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节微信好友</a></span></p>
+				</div>
+				<div>
+					<a href="手机版下载.html"  target = "_black"><img src="../images21/erweima.png" alt=""></a>
+					<p><span><a href="">点击进入<br>美食节手机客户端</a></span></p>
+				</div>
+			</div>
+			<h5>友情链接</h5>
+			<div class="hx"></div>
+			<table>
+				<tr>
+					<td><a href="首页.html">美食</a></td>
+					<td><a href="http://tizhi.meishi.cc/">体质测试</a></td>
+					<td><a href="手机版下载.html">伊特</a></td>
+					<td><a href="手机版下载.html">大粤网美食</a></td>
+					<td><a href="手机版下载.html">9酷音乐网</a></td>
+					<td><a href="手机版下载.html">123菜谱大全</a></td>
+					<td><a href="手机版下载.html">爱奇异生活</a></td>
+					<td><a href="手机版下载.html">365音乐网</a></td>
+					<td><a href="手机版下载.html">图吧</a></td>
+					<td><a href="手机版下载.html">汽车论坛</a></td>
+				</tr>
+				<tr>
+					<td><a href="手机版下载.html">39健康饮食</a></td>
+					<td><a href="http://www.qqtn.com/">QQ下载</a></td>
+					<td><a href="http://www.qqtn.com/">家居网</a></td>
+					<td><a href="http://www.qqtn.com/">搜狐美食</a></td>
+					<td><a href="http://www.qqtn.com/">美食天下</a></td>
+					<td><a href="http://www.qqtn.com/">特色菜网</a></td>
+					<td><a href="http://www.qqtn.com/">poco美食网</a></td>
+					<td><a href="http://www.qqtn.com/">中华美食网</a></td>
+					<td><a href="http://www.qqtn.com/">合肥公交网</a></td>
+					<td><a href="http://www.app111.com/">苹果园</a></td>
+				</tr>
+				<tr>
+					<td><a href="http://www.canyin88.com/">红餐微杂志</a></td>
+					<td><a href="http://bj.fang.com/">北京搜房网</a></td>
+					<td><a href="http://dg.ganji.com/">东莞赶集网</a></td>
+					<td><a href="http://www.13914.com/">厨师网</a></td>
+					<td><a href="http://www.meishij.net/friendLinks.html">更多友情链接</a></td>
+				</tr>
+			</table>
+			<div class="hx"></div>
+			<div id="zx">
+				<ul>
+					<li><a href="http://www.meishij.net/siteinfo/index.php">公司简介</a></li>
+					<li><a href="http://www.meishij.net/siteinfo/index.php">企业文化</a></li>
+					<li><a href="http://www.meishij.net/siteinfo/index.php">公司动态</a></li>
+					<li><a href="http://www.meishij.net/siteinfo/index.php">免责声明</a></li>
+					<li><a href="http://www.meishij.net/siteinfo/index.php">联系我们</a></li>
+					<li><a href="http://www.meishij.net/siteinfo/index.phphttp://www.meishij.net/siteinfo/index.php">招贤纳士</a></li>
+					<li><a href="http://www.meishij.net/siteinfo/index.php">商务合作</a></li>
+					<li><a href="http://www.meishij.net/siteinfo/index.php">网站地图</a></li>
+					<li><a href="http://www.meishij.net/siteinfo/index.php">友情链接</a></li>
+					<li><a href="http://www.meishij.net/siteinfo/index.php">美食节移动APP</a></li>
+				</ul>
+				<p></p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

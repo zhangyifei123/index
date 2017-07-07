@@ -1,0 +1,128 @@
+body{
+	margin:0px;
+	padding: 0px;
+	min-width: 1900px;	
+}
+#ymdh{
+	width: 100%;
+	height: 80px;
+	font-size: 14px;
+}
+#ms{
+	margin-left: 22%;
+	display: inline-block;
+	width: 130px;
+	height: 55px;
+}
+#dl{
+	margin-left: 280px;
+}
+#dl a,#zc a,#qq a,#wb a{
+	font-size: 10px;
+	color:rgb(153,153,153);
+}
+#ymqq{
+	display: inline-block;
+}
+#ymqq li{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 8px;
+}
+.list-inline a{
+	color: rgb(102,102,102);
+}
+#ymqq a:hover{
+	color: red;
+}
+#section_one{
+	width:100%;
+	background-color: rgb(245,242,242);
+	margin-top: -30px;
+	border-top: 1px solid rgb(221,221,221)
+}
+#section_one img{
+	margin-left:630px;
+}
+#photo1 {
+	width:580px;
+	margin-left: 650px;
+}
+#photo1 img{
+	width:80px;
+	height:80px;
+	border-radius: 8px;
+	margin-left: 0px;
+	margin-top: -72px;
+}
+#photo1 textarea{
+	width:470px;
+	height:80px;
+	border:none;
+	border-radius: 8px;
+	background-color: rgb(221,221,221);
+	margin-left: 8px;
+}
+#photo1 input{
+	width:65px;
+	height:35px;
+	background-color: red;
+	border:none;
+	margin-left: 495px;
+	color: white;
+}
+#commentid78600{
+	margin-top: 60px;
+}
+.plcon .name{
+	color:red;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	top:-85px;
+	left:90px;
+}
+.plcon p{
+	position: relative;
+	top:-75px;
+	left:90px;
+}
+.plcon span{
+	position: relative;
+	top:-75px;
+	left:90px;
+	font-size: 12px;
+	color:rgb(153,153,153);
+}
+.plcon a{
+	color: red;
+	position: relative;
+	top:-75px;
+	left:410px;
+	font-size:13px;
+}
+#commentid78600 textarea{
+	margin-top: -27px;
+	margin-left: 90px;
+}
+#section_two{
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+}
+footer{
+	width:100%;
+	height:125px;
+	background-color: rgb(51,51,51);
+	color:white;
+	text-align: center;
+	margin-top: 45px;
+}
+footer span{
+	font-size: 12px;
+}
+footer p{
+	padding-top: 35px;
+	font-size: 14px;
+	font-weight: bold;
+}

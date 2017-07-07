@@ -1,0 +1,244 @@
+body{
+			margin:0px;
+			padding: 0px;
+			min-width: 1920px;
+			
+	}
+	#ymdh{
+			width: 100%;
+			height: 80px;
+			
+	}
+	#ms{
+		margin-left: 22%;
+		display: inline-block;
+		width: 100px;
+		height: 60px;
+	}
+	.li{
+		margin-left: 280px;
+	}
+	#ymqq{
+		display: inline-block;
+	}
+	#ymqq li{
+		display: inline-block;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	#ymqq a{
+		color: rgb(102,102,102);
+	}
+	#ymqq a:hover{
+		color: red;
+	}
+	#magge{
+		width: 1916px;
+		height:3646px;
+		background-image: url("../images2/年糕.png");
+		background-repeat: no-repeat;
+		/*background-size: 1920px 4636px;*/
+		
+	}
+	.year{
+		margin-left: 445px;
+		position: absolute;
+		top: 990px;
+	}
+	.why{
+		margin-top: 100px;
+	}
+	.year1{
+		margin-top: 100px;
+		width: 1100px;
+		height: 640px;
+		background-image: url("../images2/年糕1.png");
+	    background-repeat: no-repeat;
+	}
+	.year3{
+		margin-top: 100px;
+		width: 1100px;
+		height: 650px;
+		background-image: url("../images2/年糕3.png");
+	    background-repeat: no-repeat;
+	}
+	.year4{
+		margin-top: 100px;
+		width: 1100px;
+		height: 650px;
+		background-image: url("../images2/年糕2.png");
+	    background-repeat: no-repeat;
+	}
+	.year5{
+		margin-top: 100px;
+		width: 1100px;
+		height: 650px;
+		background-image: url("../images2/年糕6.png");
+	    background-repeat: no-repeat;
+	}
+		.year6{
+		margin-top: 100px;
+		width: 1100px;
+		height: 80px;
+		margin-left:150px;
+		background-image: url("../images2/年糕4.png");
+	    background-repeat: no-repeat;
+	}
+	.year2{
+        position: relative;
+        top: 230px;
+        left: 45px;
+
+        
+	}
+	.zi{
+		position: absolute;
+		top: 320px;
+		left: 35px;
+		color: black;
+		font-size: 20px;
+	}
+	.zi1{
+		position: absolute;
+		top: 320px;
+		left: 280px;
+		color: black;
+		font-size: 20px;
+	}
+	.zi2{
+		position: absolute;
+		top: 320px;
+		left: 510px;
+		color: black;
+		font-size: 20px;
+	}
+	.zi3{
+		position: absolute;
+		top: 320px;
+		left: 750px;
+		color: black;
+		font-size: 20px;	
+	}
+	.side{
+		width: 1000px;
+		height: 3000px;
+		background-color: white;
+		margin-top: 50px;
+	}
+	.imm{
+		width: 120px;
+		height: 120px;
+		margin-top: -80px;
+		margin-left:20px;
+		
+	}
+	.imm1{
+		margin-top: 20px;
+		border-radius: 5px;
+		background-color: rgb(238,238,238);
+		
+	}
+    .imm2{
+    	background-color: red;
+    	width: 60px;
+    	height: 30px;
+    	position: relative;
+    	top: -6px;
+    	left: 890px;
+    	color: white;
+    	border:none;
+    }
+    .imm3{
+		width: 120px;
+		height: 120px;
+		margin-left:20px;
+	}
+	.span1{
+		margin-top: -120px;
+		margin-left:150px;
+		color: red;
+	}
+	.span2{
+		margin-top: 5px;
+		margin-left:150px;
+	}
+	.span3{
+		margin-top: 25px;
+		margin-left:150px;
+	}
+	.span4{
+		margin-top: -55px;
+		margin-left:910px;
+		color: red;
+	}
+	.span5{
+		color: red;
+		text-decoration: none;
+	}
+	.ccd{
+		margin-top: 100px;
+	}
+	.fot{
+		width: 1916px;
+		height: 130px;
+		background-color: black;
+
+	}
+	.ddv{
+		margin-left: 400px;
+		color: white;
+		font-size: 15px;
+		font-weight: bold;
+		padding: 25px;
+	}
+	.fot1{
+          margin-left: 800px;
+          color: rgb(255,255,255);
+          position: relative;
+          top: 50px;
+          font-weight: bold;
+	}
+	.fot2{
+          margin-left: 600px;
+          color: rgb(255,255,255);
+          position: relative;
+          top: 55px;
+         /* font-weight: bold;*/
+          font-size: 10px;
+	}
+	.zzsc{ 
+     margin:0 auto;
+       width:620px; 
+       height:100px;
+      /* border:1px solid #F00;*/
+} 
+.page{
+    list-style: none;
+}
+.page>li{
+    float: left;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: rgb(245,245,245);
+}
+.page .pageItem{
+   /* border: solid thin #DDDDDD;*/
+    margin: 5px;
+}
+.page .pageItemActive{
+    border: solid thin red;
+    margin: 5px;
+    background-color: red;
+    color:white;
+}
+.page .pageItem:hover{
+    border: solid thin red;
+    background-color: red;
+    color:white;
+}
+.page .pageItemDisable{
+    /*border: solid thin #DDDDDD;*/
+    margin: 5px;
+    background-color: rgb(245,245,245);
+}
+	

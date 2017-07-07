@@ -1,0 +1,162 @@
+body{
+	overflow-x: hidden;
+}
+#ydk{
+	width: 1002px;
+	padding-bottom:80px;
+	background-color: white;
+	margin-top: 40px;
+	margin-left: 23%;
+	margin-bottom: 40px;
+}
+#top{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 23px;
+	font-family:  "微软雅黑"; 
+}
+#ydk #bs1,#ydk #bs2,#ydk #bs3{
+	margin-top: 45px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+#ydk #bs1{
+	margin-left: 0px;
+}
+#ycd {
+	font-size: 15px;
+	color: black;
+	font-family:  "微软雅黑"; 
+}
+#ycd:hover{
+	color: red;
+	cursor:pointer;
+}
+#ycd{
+	margin-bottom: 25px;
+}
+#zc{
+	width: 603px;
+	height: 390px;
+	background-color: rgb(245,245,245);
+	margin-left: 200px;
+	margin-top: 25px;
+	text-align: center;
+	padding-top: 40px;
+	color: rgb(225,221,225);
+	border-radius: 5px;
+	border:1px solid rgb(238,238,238);
+}
+#zc span{
+	font-family:  "微软雅黑"; 
+	font-size: 18px;
+	font-weight: bold;
+}
+#zc span a{
+	color: rgb(51,51,51);
+}
+#zc #sp1 {
+	color: rgb(190,164,153);
+	font-weight: lighter;
+	color: red;
+	cursor: pointer;
+}
+#yxzc #sp2 {
+	color: rgb(190,164,153);
+	font-weight: lighter;
+}
+form #yyd{
+	color: rgb(102,102,102);
+	font-size: 14px;
+	font-weight:lighter;
+}
+form #yyd a{
+	color: red;
+}
+#fot{
+	margin-top: 60px;
+	z-index: 101
+}
+#fot {
+	color: rgb(51,51,51);
+}
+#fot:hover{
+	color: red;
+	cursor: pointer;
+}
+#yxzc{
+	width: 603px;
+	height: 390px;
+	background-color: rgb(245,245,245);
+	text-align: center;
+	padding-top: 40px;
+	color: rgb(225,221,225);
+	border-radius: 5px;
+	position: absolute;
+	top: 633px;
+	left: 632px;
+	display: none;
+	border:1px solid rgb(238,238,238);
+}
+#yxzc span{
+	font-family:  "微软雅黑"; 
+	font-size: 18px;
+	font-weight: bold;
+}
+#yxzc span a{
+	color: rgb(51,51,51);
+}
+#yxzc #sp2 {
+	color: rgb(190,164,153);
+	font-weight: lighter;
+	color: red;
+	cursor: pointer;
+}
+#yxzc form #yyd{
+	color: rgb(102,102,102);
+	font-size: 14px;
+	font-weight:lighter;
+}
+#yxzc form #yyd a{
+	color: red;
+}
+#kyc{
+	width: 603px;
+	height: 103px;
+	background-color: rgb(245,245,245);
+	border-radius: 5px;
+	border:1px solid rgb(238,238,238);
+	margin-left: 200px;
+	text-align: center;
+	line-height: 103px;
+	display: none;
+}
+#kyc a{
+	font-size: 12px;
+	font-family:  "微软雅黑"; 
+	color: rgb(51,51,51);
+	margin-left: 20px;
+}
+#kyc a:hover{
+	color: red;
+}
+#dlsy{
+	width: 603px;
+	height: 510px;
+	background-color: white;
+	text-align: center;
+	padding-top: 40px;
+	color: rgb(225,221,225);
+	position: absolute;
+	top: 633px;
+	left: 632px;
+	display: none;
+}
+#dlsy form #yyd a{
+	color: rgb(153,153,153);
+	font-family:"微软雅黑"; 
+}
+#dlsy form #yyd {
+	color: rgb(102,102,102);
+	font-family:"微软雅黑"; 
+}

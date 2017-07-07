@@ -1,0 +1,81 @@
+/*===================
+    bannerLiist-css
+======================*/
+
+/*body {
+    background: #000;
+}*/
+.banner {
+    width: 1500px;
+    height: 450px;
+    margin-left: -158px;
+    margin-top: -57px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner > ul {
+    display: none;
+    /*width: 999999999px;*/
+    height: 450px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.banner > ul > li  {
+    float: left;
+    height: 450px;
+}
+
+.banner > ul > li > a {
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    line-height: 450px;
+    font-weight: bold;
+}
+
+.img-btn-list {
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+    left: 500px;
+    text-align: center;
+}
+
+.img-btn-list > span  {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+  
+    margin: 0 5px;
+    background: rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+.img-btn-list > span.current {
+    border: 3px solid rgba(0,0,0,0.8);
+    background: rgba(255,255,255,0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

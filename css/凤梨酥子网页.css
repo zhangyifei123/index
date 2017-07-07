@@ -1,0 +1,105 @@
+
+/*子网页主体*/
+.fenglisu{
+	width:590px;
+	height: 390px;
+	margin-left: 490px;
+}
+.fenglisu2{
+	width:590px;
+	height: 850px;
+	margin-left: 490px;
+}
+.fenglisu3,.fenglisu4{
+	width:590px;
+	height: 560px;
+	margin-left: 490px;
+	font-size: 20px;
+}
+.fenglisu5{
+	padding-top: 30px;
+	padding-left: 10px;
+	/*border:1px  solid gray;*/
+	width:590px;
+	height: 230px;
+	margin-left: 490px;
+	font-size: 15px;
+}
+.floattu,.floattu2{
+	/*border:1px  solid black;*/
+	display: inline-block;
+}
+.floattu2{
+	width: 350px;
+	height: auto;
+	vertical-align: top;
+}
+
+#imgq{
+	margin-left: 28%;
+	width: 150px;
+	height: 150px;
+}
+.imgw{
+/*	border:1px solid red;*/
+	position: absolute;
+	top: 460px;
+	right: 590px;
+	width: 30px;
+	height: 30px;	
+}
+.fans,.fans1{
+	/*margin-left: 70px;*/
+	display: inline-block;
+	/*margin-right: 100px;*/
+}
+.fans1{
+	margin-right:100px;
+	margin-left: 70px;
+}
+#button1{
+	margin-left: 130px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	/*margin: 60 0 20px ;*/
+	padding-left:30px;
+	padding-right:30px;
+}
+#ul li{
+	list-style: none;
+	margin-bottom: 5px;
+	color: gray;
+}
+#zan{
+	/*text-align: center;*/
+	margin-left: 720px;
+}
+#zan>span{
+	margin-left: -18px;
+	color: gray;
+}
+.liuyantu{
+	margin-left: 27%;
+}
+#liuyantu{
+	
+	width:55%;
+}
+#liuyantu>img{
+	margin-left: 40%;
+	vertical-align: top;
+}
+#text{
+	margin-top: 10px;
+	background-color: rgb(238,238,238);
+}
+#liuyantu input{
+	margin-left:89%;
+	padding-right: 20px;
+	padding-left: 20px;
+	/*background-color: red;
+	color: white;*/
+}
+#li1:hover{
+	background-color: red;
+}

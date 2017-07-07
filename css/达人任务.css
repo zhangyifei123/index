@@ -1,0 +1,37 @@
+
+.tu1,.n1{
+	display: inline-block;
+}
+.tu1{
+	margin-left: 25%;
+	vertical-align: top;
+}
+.tu1>img{
+	width: 320px;
+	height: 180px;
+}	
+.n1{
+	margin-left: 50px; 
+}
+.con1{
+	/*border:1px  solid black;*/
+	width: 50%;
+	margin:auto;
+	color: rgb(102,102,102);
+	font-size: 18px;	
+}
+#button111{
+	margin-left: 50%;
+	/*text-align: center;*/
+}
+.pl{
+	display: inline-block;
+	margin-bottom:10px;
+}
+.po{
+	margin-left: 37%;
+}
+.po1:hover{
+	transform: scale(1.1);
+}
+

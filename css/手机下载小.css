@@ -1,0 +1,327 @@
+﻿#nav #dh1 li:hover{
+		background-color: rgb(250,250,250);
+	}
+body{
+			margin:0px;
+			padding: 0px;
+			min-width: 1920px;
+			
+	}
+	#zt{
+		background-color: rgb(250,232,200);
+	}
+	#ymdh{
+			width: 100%;
+			height: 120px;
+			background-image: linear-gradient(90deg,rgb(222,29,33),rgb(161,0,13));
+	}
+	#ms{
+		margin-left: 22%;
+		display: inline-block;
+	}
+	#ymss{
+		width: 23%;
+		height: 36px;
+		border-radius: 5px;
+		border:2px solid white;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+	#ymqq{
+		display: inline-block;
+	}
+	#ymqq li{
+		display: inline-block;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	#ymqq a{
+		color: white;
+	}
+	#ymqq li:hover{
+		line-height: 30px;
+		height: 30px;
+		background-color:rgb(155,0,10);
+		border-radius: 5px;
+	}
+	#hjd{
+		width: 76px;
+		height: 33px;
+		position: relative;
+		left:-82px;
+		background-color: rgb(168,0,15);
+		border:none;
+		border-radius: 3px;
+		color: white;
+	}
+	#hjd:hover{
+		background-color: rgb(137,5,17);
+	}
+	#nav{
+		width:100%;
+		height: 80px;
+		background-color: rgb(255,255,255);
+		box-shadow: 2px 2px 4px #ddd;
+	}
+	#nav li{
+		display: inline-block;
+		margin-left: 50px;
+		line-height: 80px;
+	}
+	#nav a{
+		color: rgb(68,68,68);
+		font-size: 18px;
+		font-weight: bold;
+		font-family:"微软雅黑"; 
+	}
+	#nav a:hover{
+		text-decoration: none;
+	}
+	#dh1{
+		margin-left: 370px;
+	}
+	#dh1 #hg{
+		margin-top: -40px;
+		margin-left: -10px;
+	}
+	#cpdq,#cpdq1{
+		z-index: 101;
+		width: 990px;
+		height: 280px;
+		background-color: white;
+		padding-top:5px;
+		padding-left: 5px;
+		display: none;
+		position: absolute;
+		left: 430px;
+		box-shadow: 2px 2px 4px #ddd;
+	}
+	#cpdq .xb,#cpdq1 .xb{
+		color: red;
+		font-family: "微软雅黑"; 
+		font-size: 17px;
+		margin-left: 15px;
+		margin-top: 20px;
+	}
+	#cpdq span,#cpdq1 span{
+		font-size: 13px;
+		margin-left: 15px;
+	}
+	#cpdq a,#cpdq1 a{
+		color: rgb(153,153,153);
+	}
+	.dis{
+		display: inline-block;
+	}
+	#cpdq img,#cpdq1 img{
+		position: absolute;
+		right: -50px;
+		bottom: -35px;
+	}
+
+	.tltsize{
+		font-size: 25px;
+		margin-left:750px;
+		margin-top: 50px;
+		font-weight:bold;
+	}
+	#table{
+		width: 1090px;
+		height: 300px;
+		border:none;
+		background-color: white;
+		margin-left: 400px;
+
+	}
+	#table td{
+		border:1px solid rgb(238,238,238);
+
+	}
+	.aas{
+		color: black;
+		font-weight: bold;
+		font-size: 20px;
+
+	}
+	.aas1{
+		margin-left: 100px;
+		position: relative;
+		top: -20px;
+		color: rgb(153,153,153);
+		
+	}
+	.as{
+		margin-left: 20px;
+	}
+	.tltsize1{
+		font-size: 25px;
+		margin-left:850px;
+		margin-top: 50px;
+		font-weight:bold;s
+
+	}
+	.white_background{
+		width: 1300px;
+		height: 780px;
+		background-color:white;
+		margin-left: 290px;
+	}
+	.ipone_title{
+		position: absolute;
+		top: 850px;
+		left: 700px;
+	}
+	.download{
+		font-size: 30px;
+	}
+	.download_background{
+		display: inline-block;
+		width: 160px;
+		height: 64px;
+		background-image: url(../images2/下载.png);
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+	#download_1{
+		display: none;
+	}
+		.download_background1{
+		display: inline-block;
+		width: 160px;
+		height: 64px;
+		background-image: url(../images2/下载1.png);
+		background-repeat: no-repeat;
+		overflow: hidden;
+		margin-left: 50px;
+	}
+	#download_2{
+		display: none;
+	}
+
+	.ipone{
+		width: 400px;
+		height: 780px;
+		background-image: url("../images2/手机.png");
+		background-repeat: no-repeat;
+		margin-left: 60px;
+		position: relative;
+		top: 80px;
+		background-size: 280px 580px;
+	}
+	.background{
+		width: 400px;
+		height: 800px;
+		background-image: url("../images2/手机8.jpg");
+		background-repeat: no-repeat;
+		position: absolute;
+		background-size: 240px 432px;
+		top: 75px;
+		left: 20px;
+		animation: back 20s ease 10s infinite;
+	}
+	@keyframes back{
+			from{
+				background-image: url(../images2/手机8.jpg);
+			}
+			5%{
+				background-image: url(../images2/手机7.jpg);
+			}
+			20%{
+				background-image: url(../images2/手机6.jpg);
+			}
+			35%{
+				background-image: url(../images2/手机5.jpg);
+			}
+			50%{
+				background-image: url(../images2/手机4.jpg);
+			}
+			70%{
+				background-image: url(../images2/手机3.jpg);
+			}
+			90%{
+				background-image: url(../images2/手机2.jpg);
+			}
+			100%{
+				background-image: url(../images2/手机1.jpg);
+			}
+			to{
+				background-image: url(../images2/手机8.jpg);
+			}
+		}
+		        footer{
+	width: 100%;
+	height: 500px;
+	background-color: rgb(63,58,50);
+	padding-top: 20px;
+}
+#footer{
+	margin-left: 23%;
+	width: 994px;
+	height: 450px;
+}
+.fd{
+	display: inline-block;
+}
+#fd{
+	display: inline-block;
+	margin-left: 185px;
+}
+.fd p{
+	font-size: 16px;
+	color: red;
+}
+.fd span{
+	font-size:13px;
+	color: white;
+}
+#fd div{
+	display: inline-block;
+}
+#fd p{
+	text-align: center;
+	margin-top: 20px;
+}
+#fd a{
+	font-size:13px;
+	color: rgb(153,153,153);
+}
+#fd a:hover{
+	color: white;
+}
+#footer h5{
+	color: white;
+	margin-top: 40px;
+}
+#footer .hx{
+	width: 100%;
+	border:1px solid rgb(68,68,68);
+}
+#footer table{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer table td{
+	width: 99px;
+	height: 25px;
+}
+#footer a{
+	font-size: 13px;
+	color: rgb(153,153,153);
+}
+#footer table a:hover{
+	color: red;
+}
+#zx ul{
+	margin-left: 40px;
+}
+#zx li{
+	display: inline-block;
+	margin-left: 20px;
+}
+#zx li:hover{
+	background-color: rgb(250,50,50);
+}
+#zx li a:hover{
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,119 @@
+
+#titlecon{
+	text-align: center;
+
+}
+body{
+	background-color: rgb(250,232,200)
+	!important
+
+}
+#titlecon1{
+	width: 1000px;
+	height: 72px;
+	margin-left:482px;
+	background-color: white;
+	/*margin: auto;*/
+
+}
+#titlecon1 li{
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 20px;
+	color: rgb(102,102,102)
+
+}
+#formula{
+	width: 720px;
+	height: 88px;
+	background-color: white;
+	/*text-align: center;*/
+	line-height: 50px;
+	position: absolute;
+	top: 746px;
+	left: 482px;
+	color: black;
+}
+#right-nr{
+	width: 250px;
+	background-color: white;
+	position: absolute;
+	top: -300px;
+	left: 750px;
+
+}
+#button{
+	background-color: red;
+	color: white;
+	border:none;
+	padding: 3px 50px;
+	margin-left: 35px;
+	font-size: 20px;
+}
+.food{
+	vertical-align: middle;
+}
+.round{
+	width: 30px;
+	height: 30px;
+	border-radius: 25px;
+	margin-left: 35px;
+	background-color: red;
+	display: inline-block;
+	/*color:rgb(255,255,255);*/
+}
+.round span{
+	color:rgb(255,255,255);
+}
+.roundy{
+	background-color: orange;
+
+}
+.roundh{
+	background-color: pink;
+}
+.roundg{
+	background-color: gray;
+}
+.kuan{
+	width: 36px;
+	height: 36px;
+}
+.name{
+	/*text-align: middle;*/
+	position: absolute;
+	top: 480px;
+	left: 110px;
+}
+.fen{
+	position: absolute;
+	/*top: 460px;*/
+	left: 175px;
+	font-size: 15px;
+}
+.recommended_topics{
+	width: 720px;
+	background-color: white;
+	margin-left: 482px;
+}
+
+.browse{
+/*	margin-top: 6px;
+	margin-left:5px;*/
+	font-size: 15px;
+	padding-top:5px;
+	width: 50px;
+	height: 50px;
+	margin-left:20px;
+	border: 1px  solid rgb(96,165,49)
+
+
+}
+.n{
+	width: 600px;
+	margin-left:80px; 
+	display: inline-block;
+}
+.none1{
+	display: none;
+}

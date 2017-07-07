@@ -1,0 +1,89 @@
+#nav #dh1 li:hover{
+		background-color: rgb(250,250,250);
+	}
+.time_table{
+	width: 1000px;
+	/*height: 500px;*/
+	margin-left: 482px;
+	background-color: white;
+
+}
+.time_tablepho{
+/*	margin-top: 20px;*/
+	margin-left:50px;
+	vertical-align: top;
+}
+.zi{
+	display: inline-block;
+	width: 500px;
+	padding-top: 30px;
+}
+.page1{
+
+	width: 720px;
+	height: 72px;
+	background-color: white;
+	margin-left:482px;
+	border-bottom:1px solid rgb(238,238,238);
+}
+.page1>button{
+	margin-top: -65px;
+	margin-left:30px;
+	margin-right: 300px;
+}
+.tit1{
+	background-color: rgb(240,240,240);
+}
+.word1{
+	line-height: 72px;
+}
+.word2{
+	margin-left:380px;
+	margin-right: 80px;	
+}
+.word3{
+	margin-left: 30px;
+}
+sup{
+	color: red;
+}
+b{
+	color: black;
+}
+.shangxia{
+	margin-left:240px;
+	display: inline-block;
+	
+	padding: 10px 25px;
+}
+.autu{
+	display: inline-block;
+	margin-left: 50px;
+}
+.rig111{
+	width: 270px;
+	margin-left:1214px;
+	
+	
+	background-color: white;
+	position: absolute;
+	top: 670px;
+}
+.benbanjinri1{
+	color: red;
+
+}
+.qingcai1{
+	margin-left: 30px;
+	margin-bottom:20px;
+	color: rgb(102,102,102);
+}
+.t1op{
+	margin-left: 30px;
+	vertical-align: top;
+}
+.sha12{
+	width: 100px;
+
+}
+
